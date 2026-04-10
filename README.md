@@ -1,5 +1,8 @@
 # Internet Speed Test
 
+[![internet-speed-test](og-image.png)](https://internet-speed-test.app)
+
+
 Free internet speed test - check download speed, upload speed, ping, and jitter instantly. No ads, no tracking, no signup. Includes educational content on gaming, streaming, and troubleshooting slow internet.
 
 **Live:** [internet-speed-test.app](https://internet-speed-test.app)
