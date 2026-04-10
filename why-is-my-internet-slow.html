@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Is My Internet So Slow? 12 Causes and How to Fix Them | Internet Speed Test</title>
+    <meta name="description" content="Internet slow? Learn the 12 most common causes of slow internet and how to fix them. Covers WiFi issues, ISP throttling, router problems, and more. Test your speed free.">
+    <meta name="keywords" content="why is my internet so slow, internet slow at night, slow internet on one device, internet slower than what I pay for, is my ISP throttling me, how to fix slow internet, slow wifi, internet speed problems">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Why Is My Internet So Slow? 12 Causes and Fixes">
+    <meta property="og:description" content="Diagnose and fix slow internet. 12 common causes explained with step-by-step solutions. Free speed test included.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://internet-speed-test.app/why-is-my-internet-slow.html">
+    <meta property="og:image" content="https://boltbunny.app/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Why Is My Internet So Slow? 12 Causes and Fixes">
+    <meta name="twitter:description" content="Diagnose and fix slow internet. 12 common causes explained with step-by-step solutions. Free speed test included.">
+    <meta name="twitter:image" content="https://boltbunny.app/og-image.png">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#ff006e">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://internet-speed-test.app/why-is-my-internet-slow.html">
+    <link rel="icon" href="/favicon.ico">
+
+    <!-- Schema.org Article -->
+    <script type="application/ld+json">{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Why Is My Internet So Slow? 12 Causes and How to Fix Them",
+        "description": "Learn the 12 most common causes of slow internet and how to fix each one, from WiFi interference to ISP throttling.",
+        "url": "https://internet-speed-test.app/why-is-my-internet-slow.html",
+        "datePublished": "2026-03-07",
+        "dateModified": "2026-03-07",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Bolt Bunny",
+            "url": "https://boltbunny.app"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://internet-speed-test.app/why-is-my-internet-slow.html"
+        }
+    }</script>
+
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Internet Speed Test", "item": "https://internet-speed-test.app"},
+            {"@type": "ListItem", "position": 2, "name": "Why Is My Internet Slow?", "item": "https://internet-speed-test.app/why-is-my-internet-slow.html"}
+        ]
+    }</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --pink: #ff006e;
+            --cyan: #00d4ff;
+            --purple: #8b5cf6;
+            --green: #00c853;
+            --orange: #ff9100;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0a0f;
+            color: white;
+            min-height: 100vh;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Skip to content */
+        .skip-to-content { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; z-index: 9999; }
+        .skip-to-content:focus { position: fixed; top: 10px; left: 10px; width: auto; height: auto; padding: 12px 24px; background: #00d4ff; color: #000; font-weight: 600; border-radius: 8px; text-decoration: none; }
+
+        /* Gradient orbs */
+        .orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.3;
+            pointer-events: none;
+            z-index: 1;
+            animation: float 20s ease-in-out infinite;
+        }
+
+        .orb-1 {
+            width: 500px;
+            height: 500px;
+            background: var(--pink);
+            top: -250px;
+            left: -250px;
+            animation-delay: 0s;
+        }
+
+        .orb-2 {
+            width: 400px;
+            height: 400px;
+            background: var(--cyan);
+            bottom: -200px;
+            right: -200px;
+            animation-delay: -10s;
+        }
+
+        .orb-3 {
+            width: 350px;
+            height: 350px;
+            background: var(--purple);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation-delay: -5s;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(30px, -50px) scale(1.1); }
+            66% { transform: translate(-20px, 30px) scale(0.9); }
+        }
+
+        .container {
+            position: relative;
+            z-index: 10;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 3rem 1.5rem 2rem;
+        }
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--pink);
+            text-decoration: none;
+        }
+
+        .logo:hover {
+            color: var(--cyan);
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #fff 0%, var(--cyan) 50%, var(--pink) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 2rem;
+            font-weight: 400;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* CTA Button */
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            padding: 1.25rem 3rem;
+            background: linear-gradient(135deg, var(--pink), #d4004e);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.25rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 15px 50px rgba(255,0,110,0.5);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
+            animation: ctaPulse 3s ease-in-out infinite;
+        }
+
+        @keyframes ctaPulse {
+            0%, 100% { box-shadow: 0 15px 50px rgba(255,0,110,0.4); }
+            50% { box-shadow: 0 15px 60px rgba(255,0,110,0.7), 0 0 40px rgba(255,0,110,0.2); }
+        }
+
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.6s;
+        }
+
+        .cta-button:hover::before {
+            left: 100%;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 20px 60px rgba(255,0,110,0.6);
+            animation: none;
+        }
+
+        /* Section titles */
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #fff, var(--cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-subtitle {
+            color: rgba(255,255,255,0.6);
+            font-size: 1.1rem;
+            margin-bottom: 3rem;
+        }
+
+        /* Cause cards */
+        .cause-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 20px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+            position: relative;
+            opacity: 0;
+        }
+
+        .cause-card:hover {
+            background: rgba(255,255,255,0.06);
+            transform: translateY(-4px);
+        }
+
+        .cause-card-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .cause-number {
+            flex-shrink: 0;
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: white;
+        }
+
+        .cause-card:nth-child(1) .cause-number { background: var(--pink); box-shadow: 0 8px 24px rgba(255,0,110,0.3); }
+        .cause-card:nth-child(2) .cause-number { background: var(--cyan); box-shadow: 0 8px 24px rgba(0,212,255,0.3); color: #0a0a0f; }
+        .cause-card:nth-child(3) .cause-number { background: var(--purple); box-shadow: 0 8px 24px rgba(139,92,246,0.3); }
+        .cause-card:nth-child(4) .cause-number { background: var(--orange); box-shadow: 0 8px 24px rgba(255,145,0,0.3); color: #0a0a0f; }
+        .cause-card:nth-child(5) .cause-number { background: var(--green); box-shadow: 0 8px 24px rgba(0,200,83,0.3); color: #0a0a0f; }
+        .cause-card:nth-child(6) .cause-number { background: var(--pink); box-shadow: 0 8px 24px rgba(255,0,110,0.3); }
+        .cause-card:nth-child(7) .cause-number { background: var(--cyan); box-shadow: 0 8px 24px rgba(0,212,255,0.3); color: #0a0a0f; }
+        .cause-card:nth-child(8) .cause-number { background: var(--purple); box-shadow: 0 8px 24px rgba(139,92,246,0.3); }
+        .cause-card:nth-child(9) .cause-number { background: var(--orange); box-shadow: 0 8px 24px rgba(255,145,0,0.3); color: #0a0a0f; }
+        .cause-card:nth-child(10) .cause-number { background: var(--green); box-shadow: 0 8px 24px rgba(0,200,83,0.3); color: #0a0a0f; }
+        .cause-card:nth-child(11) .cause-number { background: var(--pink); box-shadow: 0 8px 24px rgba(255,0,110,0.3); }
+        .cause-card:nth-child(12) .cause-number { background: var(--cyan); box-shadow: 0 8px 24px rgba(0,212,255,0.3); color: #0a0a0f; }
+
+        .cause-card h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        .cause-section-label {
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 0.5rem;
+            margin-top: 1.25rem;
+        }
+
+        .label-what { color: var(--cyan); }
+        .label-diagnose { color: var(--orange); }
+        .label-fix { color: var(--green); }
+
+        .cause-card p {
+            color: rgba(255,255,255,0.75);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .cause-card ul {
+            color: rgba(255,255,255,0.75);
+            font-size: 0.95rem;
+            line-height: 1.8;
+            padding-left: 1.25rem;
+            margin-top: 0.25rem;
+        }
+
+        .cause-card li {
+            margin-bottom: 0.25rem;
+        }
+
+        /* Checklist section */
+        .checklist-section {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 20px;
+            padding: 3rem;
+            margin: 4rem 0;
+            opacity: 0;
+        }
+
+        .checklist-section h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #fff, var(--green));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+
+        .checklist li {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 0.75rem 0;
+            color: rgba(255,255,255,0.8);
+            font-size: 1rem;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .checklist li:last-child {
+            border-bottom: none;
+        }
+
+        .check-icon {
+            flex-shrink: 0;
+            width: 24px;
+            height: 24px;
+            border-radius: 6px;
+            border: 2px solid var(--green);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2px;
+        }
+
+        /* Throttling section */
+        .throttling-section {
+            background: linear-gradient(135deg, rgba(255,0,110,0.08), rgba(139,92,246,0.08));
+            border: 1px solid rgba(255,0,110,0.2);
+            border-radius: 20px;
+            padding: 3rem;
+            margin: 4rem 0;
+            opacity: 0;
+        }
+
+        .throttling-section h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #fff, var(--pink));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .throttling-section p {
+            color: rgba(255,255,255,0.75);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+
+        .throttling-steps {
+            list-style: none;
+            padding: 0;
+            counter-reset: throttle-step;
+        }
+
+        .throttling-steps li {
+            counter-increment: throttle-step;
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1rem 0;
+            color: rgba(255,255,255,0.8);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .throttling-steps li:last-child {
+            border-bottom: none;
+        }
+
+        .throttling-steps li::before {
+            content: counter(throttle-step);
+            flex-shrink: 0;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: var(--pink);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.85rem;
+        }
+
+        /* CTA section */
+        .cta-section {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, rgba(0,212,255,0.05), rgba(255,0,110,0.05));
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 24px;
+            margin: 4rem 0;
+            opacity: 0;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #fff, var(--cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .cta-section p {
+            color: rgba(255,255,255,0.6);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid rgba(255,255,255,0.08);
+            padding: 3rem 0;
+            text-align: center;
+            color: rgba(255,255,255,0.5);
+            margin-top: 6rem;
+        }
+
+        footer a {
+            color: var(--cyan);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        footer a:hover {
+            color: var(--pink);
+        }
+
+        /* Fade-in initial state */
+        .cause-card, .checklist-section, .throttling-section, .cta-section {
+            opacity: 0;
+        }
+
+        /* Responsive - Tablet */
+        @media (max-width: 1024px) and (min-width: 769px) {
+            h1 {
+                font-size: 2.75rem;
+            }
+
+            .cta-button {
+                padding: 1.1rem 2.5rem;
+                font-size: 1.1rem;
+            }
+        }
+
+        /* Responsive - Mobile */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+
+            .cause-card {
+                padding: 1.75rem;
+            }
+
+            .cause-card-header {
+                gap: 1rem;
+            }
+
+            .cause-number {
+                width: 44px;
+                height: 44px;
+                font-size: 1.2rem;
+                border-radius: 12px;
+            }
+
+            .cause-card h2 {
+                font-size: 1.2rem;
+            }
+
+            .checklist-section,
+            .throttling-section {
+                padding: 2rem 1.5rem;
+            }
+
+            .cta-button {
+                padding: 1.1rem 2rem;
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .cta-section h2 {
+                font-size: 2rem;
+            }
+
+            .cta-section {
+                padding: 3rem 1.5rem;
+                margin: 3rem 0;
+            }
+
+            .orb {
+                filter: blur(40px);
+                opacity: 0.15;
+                animation: none;
+            }
+
+            header {
+                padding: 2.5rem 1rem;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+    </style>
+    <script>window.SNAPIT_TRACKING_ID='SA_56f8c0f3b16e';</script>
+    <script src="https://snapitanalytics.com/analytics.js" defer></script>
+</head>
+<body>
+
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <div class="container" id="main-content">
+        <header>
+            <a href="https://boltbunny.app?ref=internet-speed-test-slow" class="logo">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                </svg>
+                Bolt Bunny
+            </a>
+
+            <nav aria-label="Breadcrumb" style="margin-bottom: 1rem;">
+                <ol style="list-style: none; display: flex; justify-content: center; gap: 0.5rem; font-size: 0.85rem; color: rgba(255,255,255,0.5);">
+                    <li><a href="https://boltbunny.app?ref=internet-speed-test-slow" style="color: var(--cyan); text-decoration: none;">Bolt Bunny</a></li>
+                    <li aria-hidden="true">/</li>
+                    <li><a href="https://internet-speed-test.app" style="color: var(--cyan); text-decoration: none;">Internet Speed Test</a></li>
+                    <li aria-hidden="true">/</li>
+                    <li aria-current="page" data-i18n="breadcrumb.current">Why Is My Internet Slow?</li>
+                </ol>
+            </nav>
+
+            <h1 data-i18n="hero.title">Why Is My Internet So Slow? 12 Causes and How to Fix Them</h1>
+            <p class="subtitle" data-i18n="hero.subtitle">Slow internet is frustrating, but usually fixable. This guide walks you through the most common reasons your connection drags and exactly what to do about each one.</p>
+
+            <a href="https://boltbunny.app?ref=internet-speed-test-slow&autostart=1" target="_blank" rel="noopener" class="cta-button">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                    <polygon points="10 8 16 12 10 16 10 8"/>
+                </svg>
+                <span data-i18n="hero.cta">Test Your Speed Now</span>
+            </a>
+        </header>
+
+        <!-- Cause 1 -->
+        <div class="cause-card">
+            <div class="cause-card-header">
+                <div class="cause-number">1</div>
+                <div>
+                    <h2 data-i18n="cause1.title">Too Many Devices on the Network</h2>
+                </div>
+            </div>
+            <p class="cause-section-label label-what">What It Is</p>
+            <p>Every device on your network shares the same bandwidth. When your household has phones, tablets, laptops, smart TVs, gaming consoles, and IoT devices all connected at once, they compete for the same pool of bandwidth. Even idle devices can consume bandwidth with background syncing, cloud backups, and app updates.</p>
+            <p class="cause-section-label label-diagnose">How to Diagnose</p>
+            <ul>
+                <li>Check your router admin panel to see how many devices are connected</li>
+                <li>Run a speed test with only one device connected, then with all devices active</li>
+                <li>If the speed difference is significant, device congestion is the problem</li>
+            </ul>
+            <p class="cause-section-label label-fix">How to Fix It</p>
+            <ul>
+                <li>Disconnect devices you are not actively using</li>
+                <li>Use your router's QoS (Quality of Service) settings to prioritize important traffic like video calls or gaming</li>
+                <li>Upgrade to a router that supports more simultaneous connections</li>
+                <li>Consider upgrading your internet plan if your household regularly uses 10+ devices</li>
+            </ul>
+        </div>
+
+        <!-- Cause 2 -->
+        <div class="cause-card">
+            <div class="cause-card-header">
+                <div class="cause-number">2</div>
+                <div>
+                    <h2 data-i18n="cause2.title">WiFi Interference and Dead Zones</h2>
+                </div>
+            </div>
+            <p class="cause-section-label label-what">What It Is</p>
+            <p>WiFi signals are radio waves that get weakened or disrupted by physical obstacles and other electronic devices. Thick walls, floors, large appliances, microwaves, baby monitors, Bluetooth devices, and even neighboring WiFi networks on the same channel can all cause interference. Dead zones are areas in your home where the signal is too weak to maintain a reliable connection.</p>
+            <p class="cause-section-label label-diagnose">How to Diagnose</p>
+            <ul>
+                <li>Walk around your home and test your speed in different rooms</li>
+                <li>Check your WiFi signal strength bars in each location</li>
+                <li>Note if speeds drop near large appliances, concrete walls, or at the far ends of your home</li>
+            </ul>
+            <p class="cause-section-label label-fix">How to Fix It</p>
+            <ul>
+                <li>Move your router to a central, elevated location away from walls and appliances</li>
+                <li>Switch to the 5GHz band for faster speeds in nearby rooms, or 2.4GHz for better range through walls</li>
+                <li>Add a mesh WiFi system or range extenders to eliminate dead zones</li>
+                <li>Change your WiFi channel to avoid overlap with neighbors (use a WiFi analyzer app to find the least congested channel)</li>
+            </ul>
+        </div>
+
+        <!-- Cause 3 -->
+        <div class="cause-card">
+            <div class="cause-card-header">
+                <div class="cause-number">3</div>
+                <div>
+                    <h2 data-i18n="cause3.title">Outdated Router or Modem</h2>
+                </div>
+            </div>
+            <p class="cause-section-label label-what">What It Is</p>
+            <p>Routers and modems have a limited lifespan. Older hardware may not support current WiFi standards (WiFi 5 or WiFi 6), may have slower processors that bottleneck your connection, and may lack security patches. If your router is more than 4-5 years old, it could be the weakest link in your setup, regardless of how fast your internet plan is.</p>
+            <p class="cause-section-label label-diagnose">How to Diagnose</p>
+            <ul>
+                <li>Check the model number on your router and look up its maximum supported speed</li>
+                <li>If the router's max speed is lower than your plan speed, it is the bottleneck</li>
+                <li>Connect directly to your modem via Ethernet and test speed; if it is much faster than WiFi, your router is limiting you</li>
+            </ul>
+            <p class="cause-section-label label-fix">How to Fix It</p>
+            <ul>
+                <li>Update your router firmware to the latest version</li>
+                <li>Restart your router and modem (unplug for 30 seconds, then plug modem in first, wait 2 minutes, then plug in router)</li>
+                <li>Replace routers older than 4-5 years with a WiFi 6 or WiFi 6E model</li>
+                <li>If renting a modem from your ISP, consider buying your own compatible model for better performance</li>
+            </ul>
+        </div>
+
+        <!-- Cause 4 -->
+        <div class="cause-card">
+            <div class="cause-card-header">
+                <div class="cause-number">4</div>
+                <div>
+                    <h2 data-i18n="cause4.title">ISP Congestion During Peak Hours</h2>
+                </div>
+            </div>
+            <p class="cause-section-label label-what">What It Is</p>
+            <p>Internet Service Providers share bandwidth across neighborhoods. During peak usage hours, typically 7 PM to 11 PM on weekdays, so many people are streaming, gaming, and browsing that the shared infrastructure becomes congested. This is especially common with cable internet, where an entire neighborhood shares the same coaxial line to the node.</p>
+            <p class="cause-section-label label-diagnose">How to Diagnose</p>
+            <ul>
+                <li>Run speed tests at different times of day: early morning, midday, evening, and late night</li>
+                <li>If speeds are consistently slower between 7 PM and 11 PM, peak-hour congestion is likely</li>
+                <li>Compare weekday evening speeds to weekend morning speeds</li>
+            </ul>
+            <p class="cause-section-label label-fix">How to Fix It</p>
+            <ul>
+                <li>Schedule large downloads and updates for off-peak hours (late night or early morning)</li>
+                <li>Switch to fiber internet if available in your area, as fiber is less susceptible to congestion</li>
+                <li>Contact your ISP to ask about less congested plans or dedicated bandwidth options</li>
+                <li>Use wired Ethernet connections during peak hours for the most stable experience</li>
+            </ul>
+        </div>
+
+        <!-- Cause 5 -->
+        <div class="cause-card">
+            <div class="cause-card-header">
+                <div class="cause-number">5</div>
+                <div>
+                    <h2 data-i18n="cause5.title">ISP Throttling</h2>
+                </div>
+            </div>
+            <p class="cause-section-label label-what">What It Is</p>
+            <p>Some ISPs intentionally slow down your connection for specific activities like streaming video, torrenting, or gaming. This is called throttling. They may also throttle your entire connection after you hit a certain data usage threshold, even on "unlimited" plans. Throttling is different from congestion because it is a deliberate action by your ISP.</p>
+            <p class="cause-section-label label-diagnose">How to Diagnose</p>
+            <ul>
+                <li>Run a standard speed test, then run one while connected to a VPN</li>
+                <li>If your VPN speed is significantly faster for specific activities (like streaming), your ISP is likely throttling that traffic</li>
+                <li>Check if slowdowns happen after hitting a specific data usage level each month</li>
+            </ul>
+            <p class="cause-section-label label-fix">How to Fix It</p>
+            <ul>
+                <li>Use a reputable VPN to encrypt your traffic so your ISP cannot see what you are doing</li>
+                <li>Switch to an ISP with a genuine no-throttling policy</li>
+                <li>File a complaint with the FCC if you believe your ISP is throttling without disclosure</li>
+                <li>Upgrade to a business-class plan, which typically has no throttling restrictions</li>
+            </ul>
+        </div>
+
+        <!-- Cause 6 -->
+        <div class="cause-card">
+            <div class="cause-card-header">
+                <div class="cause-number">6</div>
+                <div>
+                    <h2 data-i18n="cause6.title">Background Downloads and Updates</h2>
+                </div>
+            </div>
+            <p class="cause-section-label label-what">What It Is</p>
+            <p>Operating systems, apps, game clients, and cloud storage services constantly download updates and sync files in the background. A single Windows update can be several gigabytes. Game updates on Steam or PlayStation can exceed 50 GB. Cloud backup services like iCloud, Google Drive, or OneDrive may be uploading large files without you realizing it.</p>
+            <p class="cause-section-label label-diagnose">How to Diagnose</p>
+            <ul>
+                <li>Open Task Manager (Windows) or Activity Monitor (Mac) and check the Network tab for processes using bandwidth</li>
+                <li>Check your game clients for queued or active downloads</li>
+                <li>Look at cloud storage apps for pending syncs or uploads</li>
+            </ul>
+            <p class="cause-section-label label-fix">How to Fix It</p>
+            <ul>
+                <li>Set Windows Update and app store downloads to occur during off-peak hours</li>
+                <li>Pause game downloads when you need bandwidth for other activities</li>
+                <li>Configure cloud sync services to only run at specific times or limit their bandwidth usage</li>
+                <li>On Windows, go to Settings > Windows Update > Advanced Options and set active hours to prevent updates during your usage time</li>
+            </ul>
+        </div>
+
+        <!-- Cause 7 -->
+        <div class="cause-card">
+            <div class="cause-card-header">
+                <div class="cause-number">7</div>
+                <div>
+                    <h2 data-i18n="cause7.title">Malware or Viruses</h2>
+                </div>
+            </div>
+            <p class="cause-section-label label-what">What It Is</p>
+            <p>Malware, spyware, and viruses can silently consume your bandwidth. Some malware turns your computer into part of a botnet, using your connection to send spam or participate in DDoS attacks. Cryptominers use both your processing power and network bandwidth. Adware constantly loads ads in the background, eating into your available bandwidth.</p>
+            <p class="cause-section-label label-diagnose">How to Diagnose</p>
+            <ul>
+                <li>Run a full system scan with up-to-date antivirus software</li>
+                <li>Check Task Manager for unfamiliar processes using high network or CPU resources</li>
+                <li>Monitor your network traffic for unusual outbound connections</li>
+            </ul>
+            <p class="cause-section-label label-fix">How to Fix It</p>
+            <ul>
+                <li>Run a full antivirus and anti-malware scan (use both Windows Defender and a second-opinion scanner like Malwarebytes)</li>
+                <li>Remove any unfamiliar programs or browser extensions</li>
+                <li>Change your passwords after removing malware</li>
+                <li>Keep your operating system and antivirus software up to date to prevent future infections</li>
+            </ul>
+        </div>
+
+        <!-- Cause 8 -->
+        <div class="cause-card">
+            <div class="cause-card-header">
+                <div class="cause-number">8</div>
+                <div>
+                    <h2 data-i18n="cause8.title">DNS Server Issues</h2>
+                </div>
+            </div>
+            <p class="cause-section-label label-what">What It Is</p>
+            <p>DNS (Domain Name System) translates website names into IP addresses. Your ISP provides default DNS servers, but they are often slow and can become overloaded. A slow DNS server does not reduce your download speed, but it makes every website take longer to start loading, which feels like slow internet. It adds delay before each page begins to appear.</p>
+            <p class="cause-section-label label-diagnose">How to Diagnose</p>
+            <ul>
+                <li>Websites take a long time to start loading, but once they start, content loads at normal speed</li>
+                <li>Try loading a website by its IP address directly; if it loads faster, DNS is the issue</li>
+                <li>Use a DNS benchmark tool to compare your current DNS server speed to alternatives</li>
+            </ul>
+            <p class="cause-section-label label-fix">How to Fix It</p>
+            <ul>
+                <li>Switch to a faster public DNS provider: Google (8.8.8.8 / 8.8.4.4), Cloudflare (1.1.1.1 / 1.0.0.1), or Quad9 (9.9.9.9)</li>
+                <li>Change DNS settings on your router to apply to all devices, or on individual devices</li>
+                <li>Flush your DNS cache: run "ipconfig /flushdns" on Windows or "sudo dscacheutil -flushcache" on Mac</li>
+            </ul>
+        </div>
+
+        <!-- Cause 9 -->
+        <div class="cause-card">
+            <div class="cause-card-header">
+                <div class="cause-number">9</div>
+                <div>
+                    <h2 data-i18n="cause9.title">Distance from Router</h2>
+                </div>
+            </div>
+            <p class="cause-section-label label-what">What It Is</p>
+            <p>WiFi signal strength decreases with distance. The further you are from your router, the weaker your signal becomes. This affects both speed and connection stability. Walls, floors, furniture, and other obstacles between you and the router amplify the problem. The 5GHz band offers faster speeds but has shorter range than the 2.4GHz band.</p>
+            <p class="cause-section-label label-diagnose">How to Diagnose</p>
+            <ul>
+                <li>Test your speed right next to the router, then from where you normally use your device</li>
+                <li>If speed drops significantly with distance, your router placement is the issue</li>
+                <li>Check your device's WiFi signal indicator; fewer bars means weaker signal</li>
+            </ul>
+            <p class="cause-section-label label-fix">How to Fix It</p>
+            <ul>
+                <li>Relocate your router to a more central position in your home</li>
+                <li>Place the router on a high shelf or mount it on a wall, away from the floor</li>
+                <li>Add WiFi extenders or switch to a mesh network system for whole-home coverage</li>
+                <li>Use Ethernet cables for stationary devices like desktops, smart TVs, and gaming consoles</li>
+            </ul>
+        </div>
+
+        <!-- Cause 10 -->
+        <div class="cause-card">
+            <div class="cause-card-header">
+                <div class="cause-number">10</div>
+                <div>
+                    <h2 data-i18n="cause10.title">Ethernet Cable Problems</h2>
+                </div>
+            </div>
+            <p class="cause-section-label label-what">What It Is</p>
+            <p>If you are using a wired connection and still experiencing slow speeds, the Ethernet cable itself could be the problem. Older cables (Cat 5 or below) cannot support speeds above 100 Mbps. Damaged cables with bent pins, frayed wires, or loose connectors cause packet loss and retransmissions that slow down your connection. Even the cable's length matters, as runs over 100 meters degrade performance.</p>
+            <p class="cause-section-label label-diagnose">How to Diagnose</p>
+            <ul>
+                <li>Check the cable category printed on the jacket: Cat 5e supports up to 1 Gbps, Cat 6 supports up to 10 Gbps</li>
+                <li>Inspect the cable for physical damage, kinks, or loose connectors</li>
+                <li>Try a different Ethernet cable and see if speeds improve</li>
+            </ul>
+            <p class="cause-section-label label-fix">How to Fix It</p>
+            <ul>
+                <li>Replace Cat 5 cables with Cat 5e or Cat 6 cables</li>
+                <li>Inspect connectors for bent pins and replace damaged cables</li>
+                <li>Keep cable runs under 100 meters (328 feet)</li>
+                <li>Avoid running Ethernet cables parallel to power cables, which can cause electromagnetic interference</li>
+            </ul>
+        </div>
+
+        <!-- Cause 11 -->
+        <div class="cause-card">
+            <div class="cause-card-header">
+                <div class="cause-number">11</div>
+                <div>
+                    <h2 data-i18n="cause11.title">Browser Extensions and Too Many Tabs</h2>
+                </div>
+            </div>
+            <p class="cause-section-label label-what">What It Is</p>
+            <p>Browser extensions run code on every page you visit and can significantly slow down your browsing experience. Ad blockers, VPN extensions, script managers, and shopping tools all add processing overhead. Having dozens of tabs open means each one is maintaining connections, running scripts, and auto-refreshing, consuming both bandwidth and system memory.</p>
+            <p class="cause-section-label label-diagnose">How to Diagnose</p>
+            <ul>
+                <li>Open your browser in incognito or private mode (which disables extensions) and see if browsing feels faster</li>
+                <li>Check your browser's task manager (Shift+Esc in Chrome) to see resource usage per tab and extension</li>
+                <li>If browsing is fast in incognito but slow normally, extensions are the problem</li>
+            </ul>
+            <p class="cause-section-label label-fix">How to Fix It</p>
+            <ul>
+                <li>Disable or remove extensions you do not actively use</li>
+                <li>Keep fewer than 15-20 tabs open at once</li>
+                <li>Use a tab management extension like OneTab to suspend inactive tabs</li>
+                <li>Clear your browser cache and cookies periodically</li>
+                <li>Try a different browser to see if the problem is browser-specific</li>
+            </ul>
+        </div>
+
+        <!-- Cause 12 -->
+        <div class="cause-card">
+            <div class="cause-card-header">
+                <div class="cause-number">12</div>
+                <div>
+                    <h2 data-i18n="cause12.title">Your Plan Is Not Fast Enough</h2>
+                </div>
+            </div>
+            <p class="cause-section-label label-what">What It Is</p>
+            <p>Sometimes the simplest explanation is the right one: your internet plan does not provide enough bandwidth for your household's usage. Streaming 4K video on two TVs while someone else is on a video call and another person is gaming requires at least 100 Mbps. Many households with older plans still have 25-50 Mbps, which is not enough for modern multi-device usage.</p>
+            <p class="cause-section-label label-diagnose">How to Diagnose</p>
+            <ul>
+                <li>Run a speed test and compare the result to what your ISP plan promises</li>
+                <li>If your speeds match your plan but still feel slow, the plan itself is the bottleneck</li>
+                <li>Calculate your household's bandwidth needs: 25 Mbps per 4K stream, 5 Mbps per HD stream, 5 Mbps per video call, 25+ Mbps for gaming</li>
+            </ul>
+            <p class="cause-section-label label-fix">How to Fix It</p>
+            <ul>
+                <li>Add up your household's simultaneous bandwidth needs and compare to your plan speed</li>
+                <li>Contact your ISP about upgrading to a higher-speed tier</li>
+                <li>Check if competitors in your area offer better speeds for similar pricing</li>
+                <li>Consider fiber internet if available: it offers symmetrical upload and download speeds and minimal congestion</li>
+            </ul>
+        </div>
+
+        <!-- Quick Fix Checklist -->
+        <section class="checklist-section">
+            <h2 data-i18n="checklist.title">Quick Fix Checklist</h2>
+            <p style="color: rgba(255,255,255,0.6); margin-bottom: 1.5rem;" data-i18n="checklist.subtitle">Try these steps in order. Most slow internet problems are solved within the first five.</p>
+            <ol class="checklist">
+                <li>
+                    <span class="check-icon">
+                        <svg width="14" height="14" fill="none" stroke="var(--green)" stroke-width="2.5"><polyline points="2 7 5.5 10.5 12 4"/></svg>
+                    </span>
+                    Restart your modem and router (unplug for 30 seconds, plug modem in first, wait 2 minutes, then router)
+                </li>
+                <li>
+                    <span class="check-icon">
+                        <svg width="14" height="14" fill="none" stroke="var(--green)" stroke-width="2.5"><polyline points="2 7 5.5 10.5 12 4"/></svg>
+                    </span>
+                    Run a speed test to get your baseline numbers
+                </li>
+                <li>
+                    <span class="check-icon">
+                        <svg width="14" height="14" fill="none" stroke="var(--green)" stroke-width="2.5"><polyline points="2 7 5.5 10.5 12 4"/></svg>
+                    </span>
+                    Disconnect devices you are not actively using
+                </li>
+                <li>
+                    <span class="check-icon">
+                        <svg width="14" height="14" fill="none" stroke="var(--green)" stroke-width="2.5"><polyline points="2 7 5.5 10.5 12 4"/></svg>
+                    </span>
+                    Move closer to your router or switch to the 5GHz WiFi band
+                </li>
+                <li>
+                    <span class="check-icon">
+                        <svg width="14" height="14" fill="none" stroke="var(--green)" stroke-width="2.5"><polyline points="2 7 5.5 10.5 12 4"/></svg>
+                    </span>
+                    Pause any active downloads, updates, or cloud syncs
+                </li>
+                <li>
+                    <span class="check-icon">
+                        <svg width="14" height="14" fill="none" stroke="var(--green)" stroke-width="2.5"><polyline points="2 7 5.5 10.5 12 4"/></svg>
+                    </span>
+                    Close unnecessary browser tabs and disable unused extensions
+                </li>
+                <li>
+                    <span class="check-icon">
+                        <svg width="14" height="14" fill="none" stroke="var(--green)" stroke-width="2.5"><polyline points="2 7 5.5 10.5 12 4"/></svg>
+                    </span>
+                    Switch your DNS to 1.1.1.1 (Cloudflare) or 8.8.8.8 (Google)
+                </li>
+                <li>
+                    <span class="check-icon">
+                        <svg width="14" height="14" fill="none" stroke="var(--green)" stroke-width="2.5"><polyline points="2 7 5.5 10.5 12 4"/></svg>
+                    </span>
+                    Run a full antivirus and anti-malware scan
+                </li>
+                <li>
+                    <span class="check-icon">
+                        <svg width="14" height="14" fill="none" stroke="var(--green)" stroke-width="2.5"><polyline points="2 7 5.5 10.5 12 4"/></svg>
+                    </span>
+                    Test with an Ethernet cable to rule out WiFi problems
+                </li>
+                <li>
+                    <span class="check-icon">
+                        <svg width="14" height="14" fill="none" stroke="var(--green)" stroke-width="2.5"><polyline points="2 7 5.5 10.5 12 4"/></svg>
+                    </span>
+                    Check your router firmware for updates
+                </li>
+                <li>
+                    <span class="check-icon">
+                        <svg width="14" height="14" fill="none" stroke="var(--green)" stroke-width="2.5"><polyline points="2 7 5.5 10.5 12 4"/></svg>
+                    </span>
+                    Test with a VPN to check for ISP throttling
+                </li>
+                <li>
+                    <span class="check-icon">
+                        <svg width="14" height="14" fill="none" stroke="var(--green)" stroke-width="2.5"><polyline points="2 7 5.5 10.5 12 4"/></svg>
+                    </span>
+                    Contact your ISP or consider upgrading your plan
+                </li>
+            </ol>
+        </section>
+
+        <!-- ISP Throttling Detection -->
+        <section class="throttling-section">
+            <h2 data-i18n="throttling.title">How to Tell If Your ISP Is Throttling You</h2>
+            <p>ISP throttling is when your internet provider intentionally slows down your connection for certain types of traffic or after you reach a data cap. The VPN test is the most reliable way to detect it. Here is how it works:</p>
+            <ol class="throttling-steps">
+                <li>Run a speed test without a VPN and note your download and upload speeds. Try testing during activities that feel slow, like streaming or gaming.</li>
+                <li>Connect to a reputable VPN service. This encrypts your traffic so your ISP cannot see what you are doing or which services you are using.</li>
+                <li>Run the same speed test again while connected to the VPN. Use the same testing server if possible.</li>
+                <li>Compare the results. If your VPN speeds are significantly faster (especially for specific activities like streaming), your ISP is likely throttling that type of traffic.</li>
+                <li>Test multiple times at different hours to confirm the pattern. A one-time difference could be normal variation; consistent differences indicate throttling.</li>
+            </ol>
+            <p style="margin-top: 1rem;"><strong>What to do if you are being throttled:</strong> A VPN is the quickest fix since it hides your traffic type from your ISP. Long-term, consider switching to an ISP that does not throttle, upgrading to a business plan, or filing a complaint with the FCC.</p>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="cta-section">
+            <h2 data-i18n="cta.title">Find Out How Fast Your Internet Really Is</h2>
+            <p data-i18n="cta.desc">Run a free speed test right now. No ads, no tracking, no signup. Get your download speed, upload speed, ping, and jitter in seconds.</p>
+            <a href="https://boltbunny.app?ref=internet-speed-test-slow&autostart=1" target="_blank" rel="noopener" class="cta-button">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                    <polygon points="10 8 16 12 10 16 10 8"/>
+                </svg>
+                <span data-i18n="cta.button">Test Your Speed Now</span>
+            </a>
+        </section>
+
+        <footer>
+            <p data-i18n="footer.copyright">&copy; 2026 Free Internet Speed Test &mdash; Powered by <a href="https://boltbunny.app?ref=internet-speed-test-slow">Bolt Bunny</a></p>
+            <p style="margin-top: 0.5rem;">
+                <a href="https://boltbunny.app?ref=internet-speed-test-slow" data-i18n="footer.speedTest">Speed Test</a> &middot;
+                <a href="https://boltbunny.app/pricing.html" data-i18n="footer.proPlans">Pro Plans</a> &middot;
+                <a href="/terms.html" data-i18n="footer.terms">Terms</a> &middot;
+                <a href="/privacy.html" data-i18n="footer.privacy">Privacy</a>
+            </p>
+        </footer>
+    </div>
+
+    <noscript><style>.cause-card,.checklist-section,.throttling-section,.cta-section{opacity:1}</style></noscript>
+    <script>
+        // Scroll-triggered fade-in
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in-up');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.cause-card, .checklist-section, .throttling-section, .cta-section').forEach(function(el) {
+            observer.observe(el);
+        });
+    </script>
+
+<!-- Accessibility: Reduced motion -->
+<style>
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    .orb { animation: none; }
+    .cause-card, .checklist-section, .throttling-section, .cta-section { opacity: 1; }
+}
+</style>
+
+<!-- Cookie Consent Banner (GDPR) -->
+<style>
+#cookie-consent-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #1f2937;
+    color: #e5e7eb;
+    padding: 20px;
+    z-index: 999999;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+#cookie-consent-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+#cookie-consent-text {
+    flex: 1;
+    min-width: 300px;
+}
+#cookie-consent-buttons {
+    display: flex;
+    gap: 10px;
+}
+.cookie-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.cookie-accept {
+    background: var(--pink);
+    color: white;
+}
+.cookie-accept:hover {
+    background: #d4004e;
+}
+.cookie-reject {
+    background: #6b7280;
+    color: white;
+}
+.cookie-reject:hover {
+    background: #4b5563;
+}
+.cookie-preferences {
+    background: transparent;
+    color: #93c5fd;
+    border: 1px solid #93c5fd;
+}
+.cookie-preferences:hover {
+    background: rgba(147, 197, 253, 0.1);
+}
+#cookie-prefs-panel {
+    display: none;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+.cookie-pref-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+.cookie-pref-label {
+    font-size: 14px;
+}
+.cookie-pref-label small {
+    display: block;
+    color: #9ca3af;
+    font-size: 12px;
+}
+.cookie-toggle {
+    position: relative;
+    width: 44px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.cookie-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.cookie-toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: #4b5563;
+    border-radius: 24px;
+    transition: background 0.3s;
+}
+.cookie-toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.cookie-toggle input:checked + .cookie-toggle-slider {
+    background: var(--pink);
+}
+.cookie-toggle input:checked + .cookie-toggle-slider:before {
+    transform: translateX(20px);
+}
+.cookie-toggle input:disabled + .cookie-toggle-slider {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+</style>
+
+<div id="cookie-consent-banner" style="display: none;" role="dialog" aria-label="Cookie consent" aria-live="polite">
+    <div id="cookie-consent-content">
+        <div id="cookie-consent-text">
+            <strong>We value your privacy</strong><br>
+            We use cookies to enhance your experience and analyze site traffic.
+            <a href="/privacy.html" style="color: #60a5fa; text-decoration: underline;">Learn more</a>
+        </div>
+        <div id="cookie-consent-buttons">
+            <button class="cookie-btn cookie-preferences" onclick="toggleCookiePrefs()">Manage Preferences</button>
+            <button class="cookie-btn cookie-reject" onclick="rejectCookies()">Reject All</button>
+            <button class="cookie-btn cookie-accept" onclick="acceptCookies()">Accept All</button>
+        </div>
+    </div>
+    <div id="cookie-prefs-panel">
+        <div class="cookie-pref-row">
+            <div class="cookie-pref-label">
+                <strong>Necessary</strong>
+                <small>Required for the site to function. Cannot be disabled.</small>
+            </div>
+            <label class="cookie-toggle">
+                <input type="checkbox" checked disabled>
+                <span class="cookie-toggle-slider"></span>
+            </label>
+        </div>
+        <div class="cookie-pref-row">
+            <div class="cookie-pref-label">
+                <strong>Analytics</strong>
+                <small>Help us understand how visitors interact with our site.</small>
+            </div>
+            <label class="cookie-toggle">
+                <input type="checkbox" id="pref-analytics" checked>
+                <span class="cookie-toggle-slider"></span>
+            </label>
+        </div>
+        <div class="cookie-pref-row">
+            <div class="cookie-pref-label">
+                <strong>Marketing</strong>
+                <small>Used to deliver relevant ads and track campaigns.</small>
+            </div>
+            <label class="cookie-toggle">
+                <input type="checkbox" id="pref-marketing">
+                <span class="cookie-toggle-slider"></span>
+            </label>
+        </div>
+        <div style="text-align: right; margin-top: 10px;">
+            <button class="cookie-btn cookie-accept" onclick="savePreferences()">Save Preferences</button>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    var CONSENT_KEY = 'cookieConsent';
+    var PREFS_KEY = 'cookiePreferences';
+    var COOKIE_MAX_AGE = 365 * 24 * 60 * 60;
+    var banner = document.getElementById('cookie-consent-banner');
+
+    function setCookie(name, value, maxAge) {
+        document.cookie = name + '=' + encodeURIComponent(value) +
+            ';path=/;max-age=' + maxAge + ';SameSite=Lax;Secure';
+    }
+
+    function getCookie(name) {
+        var match = document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]*)'));
+        return match ? decodeURIComponent(match[1]) : null;
+    }
+
+    function showBanner() {
+        if (banner) banner.style.display = 'block';
+    }
+
+    function hideBanner() {
+        if (banner) banner.style.display = 'none';
+    }
+
+    function setConsent(value, prefs) {
+        setCookie(CONSENT_KEY, value, COOKIE_MAX_AGE);
+        localStorage.setItem(CONSENT_KEY, value);
+        if (prefs) {
+            var prefsStr = JSON.stringify(prefs);
+            setCookie(PREFS_KEY, prefsStr, COOKIE_MAX_AGE);
+            localStorage.setItem(PREFS_KEY, prefsStr);
+        }
+        hideBanner();
+    }
+
+    window.acceptCookies = function() {
+        setConsent('accepted', { necessary: true, analytics: true, marketing: true });
+    };
+
+    window.rejectCookies = function() {
+        setConsent('rejected', { necessary: true, analytics: false, marketing: false });
+    };
+
+    window.toggleCookiePrefs = function() {
+        var panel = document.getElementById('cookie-prefs-panel');
+        if (panel) {
+            panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+        }
+    };
+
+    window.savePreferences = function() {
+        var analytics = document.getElementById('pref-analytics').checked;
+        var marketing = document.getElementById('pref-marketing').checked;
+        setConsent(analytics ? 'accepted' : 'partial', { necessary: true, analytics: analytics, marketing: marketing });
+    };
+
+    var consent = getCookie(CONSENT_KEY) || localStorage.getItem(CONSENT_KEY);
+    if (!consent) {
+        setTimeout(showBanner, 1000);
+    }
+})();
+</script>
+
+<script>
+window.TRANSLATIONS = { es: {
+  'breadcrumb.current': '¿Por qué mi internet es lento?',
+  'hero.title': '¿Por qué mi internet es tan lento? 12 causas y cómo solucionarlas',
+  'hero.subtitle': 'Internet lento es frustrante, pero generalmente tiene solución. Esta guía te muestra las razones más comunes por las que tu conexión va lenta y qué hacer en cada caso.',
+  'hero.cta': 'Mide tu velocidad ahora',
+  'cause1.title': 'Demasiados dispositivos en la red',
+  'cause2.title': 'Interferencia WiFi y zonas muertas',
+  'cause3.title': 'Router o módem desactualizado',
+  'cause4.title': 'Congestión del ISP en horas pico',
+  'cause5.title': 'Throttling del ISP',
+  'cause6.title': 'Descargas y actualizaciones en segundo plano',
+  'cause7.title': 'Malware o virus',
+  'cause8.title': 'Problemas con el servidor DNS',
+  'cause9.title': 'Distancia al router',
+  'cause10.title': 'Problemas con el cable Ethernet',
+  'cause11.title': 'Extensiones del navegador y demasiadas pestañas',
+  'cause12.title': 'Tu plan no es lo suficientemente rápido',
+  'checklist.title': 'Lista rápida de soluciones',
+  'checklist.subtitle': 'Prueba estos pasos en orden. La mayoría de problemas de internet lento se resuelven con los primeros cinco.',
+  'throttling.title': 'Cómo saber si tu ISP te está limitando la velocidad',
+  'cta.title': 'Descubre qué tan rápido es tu internet realmente',
+  'cta.desc': 'Ejecuta un test de velocidad gratis ahora mismo. Sin anuncios, sin rastreo, sin registro. Obtén tu velocidad de descarga, subida, ping y jitter en segundos.',
+  'cta.button': 'Mide tu velocidad ahora',
+  'footer.copyright': '&copy; 2026 Test de Velocidad Gratis &mdash; Desarrollado por <a href="https://boltbunny.app?ref=internet-speed-test-slow">Bolt Bunny</a>',
+  'footer.speedTest': 'Test de velocidad',
+  'footer.proPlans': 'Planes Pro',
+  'footer.terms': 'Términos',
+  'footer.privacy': 'Privacidad'
+}};
+</script>
+<script src="i18n.js"></script>
+
+</body>
+</html>

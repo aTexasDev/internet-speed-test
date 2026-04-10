@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Speed for Streaming: Netflix 4K, YouTube, Twitch & More</title>
+    <meta name="description" content="What internet speed do you need for streaming? Find exact download requirements for Netflix 4K, YouTube, Disney+, Hulu, Twitch, and more. Includes troubleshooting tips for buffering.">
+    <meta name="keywords" content="internet speed for netflix 4k, internet speed for streaming, speed for youtube 4k, speed for disney plus, upload speed for twitch streaming, streaming speed requirements, buffering fix, how much internet speed for streaming">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Internet Speed for Streaming: Netflix, YouTube, Twitch & More">
+    <meta property="og:description" content="Exact internet speed requirements for every major streaming service. Netflix 4K, YouTube, Disney+, Twitch upload speeds, and buffering fixes.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://internet-speed-test.app/internet-speed-for-streaming.html">
+    <meta property="og:image" content="https://boltbunny.app/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Internet Speed for Streaming: Netflix, YouTube, Twitch & More">
+    <meta name="twitter:description" content="Exact internet speed requirements for every major streaming service. Netflix 4K, YouTube, Disney+, Twitch upload speeds, and buffering fixes.">
+    <meta name="twitter:image" content="https://boltbunny.app/og-image.png">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#ff006e">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://internet-speed-test.app/internet-speed-for-streaming.html">
+    <link rel="icon" href="/favicon.ico">
+
+    <!-- Schema.org Article -->
+    <script type="application/ld+json">{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Internet Speed for Streaming: Netflix, YouTube, Twitch & More",
+        "description": "Complete guide to internet speed requirements for streaming services including Netflix 4K, YouTube, Disney+, Hulu, Amazon Prime Video, Apple TV+, Spotify, and live streaming on Twitch.",
+        "url": "https://internet-speed-test.app/internet-speed-for-streaming.html",
+        "datePublished": "2026-03-07",
+        "dateModified": "2026-03-07",
+        "author": {
+            "@type": "Organization",
+            "name": "Bolt Bunny",
+            "url": "https://boltbunny.app"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Bolt Bunny",
+            "url": "https://boltbunny.app"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://internet-speed-test.app/internet-speed-for-streaming.html"
+        }
+    }</script>
+
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Internet Speed Test", "item": "https://internet-speed-test.app"},
+            {"@type": "ListItem", "position": 2, "name": "Internet Speed for Streaming", "item": "https://internet-speed-test.app/internet-speed-for-streaming.html"}
+        ]
+    }</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --pink: #ff006e;
+            --cyan: #00d4ff;
+            --purple: #8b5cf6;
+            --green: #00c853;
+            --orange: #ff9100;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0a0f;
+            color: white;
+            min-height: 100vh;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Skip to content */
+        .skip-to-content { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; z-index: 9999; }
+        .skip-to-content:focus { position: fixed; top: 10px; left: 10px; width: auto; height: auto; padding: 12px 24px; background: #00d4ff; color: #000; font-weight: 600; border-radius: 8px; text-decoration: none; }
+
+        /* Gradient orbs */
+        .orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.3;
+            pointer-events: none;
+            z-index: 1;
+            animation: float 20s ease-in-out infinite;
+        }
+
+        .orb-1 {
+            width: 500px;
+            height: 500px;
+            background: var(--pink);
+            top: -250px;
+            left: -250px;
+            animation-delay: 0s;
+        }
+
+        .orb-2 {
+            width: 400px;
+            height: 400px;
+            background: var(--cyan);
+            bottom: -200px;
+            right: -200px;
+            animation-delay: -10s;
+        }
+
+        .orb-3 {
+            width: 350px;
+            height: 350px;
+            background: var(--purple);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation-delay: -5s;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(30px, -50px) scale(1.1); }
+            66% { transform: translate(-20px, 30px) scale(0.9); }
+        }
+
+        .container {
+            position: relative;
+            z-index: 10;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 3rem 1.5rem 4rem;
+        }
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--pink);
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #fff 0%, var(--cyan) 50%, var(--pink) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.35rem;
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 2rem;
+            font-weight: 400;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            padding: 1.5rem 3.5rem;
+            background: linear-gradient(135deg, var(--pink), #d4004e);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 15px 50px rgba(255,0,110,0.5);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
+            animation: ctaPulse 3s ease-in-out infinite;
+        }
+
+        @keyframes ctaPulse {
+            0%, 100% { box-shadow: 0 15px 50px rgba(255,0,110,0.4); }
+            50% { box-shadow: 0 15px 60px rgba(255,0,110,0.7), 0 0 40px rgba(255,0,110,0.2); }
+        }
+
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.6s;
+        }
+
+        .cta-button:hover::before {
+            left: 100%;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 20px 60px rgba(255,0,110,0.6);
+            animation: none;
+        }
+
+        .cta-hint {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+        }
+
+        /* Section styles */
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .section-subtitle {
+            font-size: 1.15rem;
+            color: rgba(255,255,255,0.6);
+        }
+
+        section {
+            margin-top: 4rem;
+        }
+
+        /* Content Cards */
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .content-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 20px;
+            padding: 2.5rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .content-card::before {
+            content: '';
+            position: absolute;
+            inset: -1px;
+            border-radius: 20px;
+            padding: 1px;
+            background: linear-gradient(135deg, transparent 40%, var(--cyan) 100%);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .content-card:hover {
+            background: rgba(255,255,255,0.06);
+            transform: translateY(-5px);
+        }
+
+        .content-card:hover::before {
+            opacity: 1;
+        }
+
+        .content-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--cyan);
+        }
+
+        .content-card p {
+            color: rgba(255,255,255,0.7);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .content-card ul {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .content-card li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            color: rgba(255,255,255,0.7);
+        }
+
+        .content-card li svg {
+            color: var(--green);
+            flex-shrink: 0;
+            margin-top: 0.25rem;
+        }
+
+        /* Speed Reference Table */
+        .speed-table-wrapper {
+            overflow-x: auto;
+            margin-top: 2rem;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .speed-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            overflow: hidden;
+            min-width: 600px;
+        }
+
+        .speed-table th {
+            background: rgba(255,255,255,0.06);
+            padding: 1rem 1.25rem;
+            text-align: left;
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: rgba(255,255,255,0.7);
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .speed-table td {
+            padding: 1rem 1.25rem;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            color: rgba(255,255,255,0.8);
+            font-size: 0.95rem;
+        }
+
+        .speed-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .speed-table tr:hover td {
+            background: rgba(255,255,255,0.03);
+        }
+
+        .speed-badge {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .badge-basic { background: rgba(255,145,0,0.15); color: var(--orange); }
+        .badge-good { background: rgba(0,200,83,0.15); color: var(--green); }
+        .badge-great { background: rgba(0,212,255,0.15); color: var(--cyan); }
+        .badge-excellent { background: rgba(139,92,246,0.15); color: var(--purple); }
+
+        /* Prose content */
+        .prose {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .prose p {
+            color: rgba(255,255,255,0.7);
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+
+        .prose h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin: 3rem 0 1rem;
+            color: #fff;
+        }
+
+        .prose h3 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin: 2rem 0 0.75rem;
+            color: var(--cyan);
+        }
+
+        .prose strong {
+            color: #fff;
+        }
+
+        /* Inline icon */
+        .inline-icon { display: inline-block; vertical-align: middle; margin: 0 2px; }
+
+        /* CTA Section */
+        .cta-section {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: rgba(255,255,255,0.02);
+            border-radius: 30px;
+            margin: 5rem 0;
+            position: relative;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            inset: -1px;
+            border-radius: 30px;
+            padding: 1px;
+            background: linear-gradient(135deg, var(--pink), var(--purple), var(--cyan));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            opacity: 0.5;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            font-size: 1.15rem;
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 2.5rem;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid rgba(255,255,255,0.08);
+            padding: 3rem 0;
+            text-align: center;
+            color: rgba(255,255,255,0.5);
+            margin-top: 6rem;
+        }
+
+        footer a {
+            color: var(--cyan);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        footer a:hover {
+            color: var(--pink);
+        }
+
+        /* Fade-in initial state */
+        .content-card {
+            opacity: 0;
+        }
+
+        /* Responsive - Tablet */
+        @media (max-width: 1024px) and (min-width: 769px) {
+            h1 {
+                font-size: 2.75rem;
+            }
+
+            .content-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .cta-button {
+                padding: 1.25rem 3rem;
+                font-size: 1.25rem;
+            }
+        }
+
+        /* Responsive - Mobile */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .subtitle {
+                font-size: 1.1rem;
+            }
+
+            .cta-button {
+                padding: 1.25rem 2.5rem;
+                font-size: 1.15rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .prose h2 {
+                font-size: 1.6rem;
+            }
+
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .orb {
+                filter: blur(40px);
+                opacity: 0.15;
+                animation: none;
+            }
+
+            header {
+                padding: 2.5rem 1rem;
+            }
+
+            .cta-section {
+                padding: 3rem 1.5rem;
+                margin: 4rem 0;
+            }
+
+            .cta-section h2 {
+                font-size: 2rem;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+    </style>
+    <script>window.SNAPIT_TRACKING_ID='SA_56f8c0f3b16e';</script>
+    <script src="https://snapitanalytics.com/analytics.js" defer></script>
+</head>
+<body>
+
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <div class="container" id="main-content">
+        <header>
+            <div class="logo">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                </svg>
+                Bolt Bunny
+            </div>
+
+            <nav aria-label="Breadcrumb" style="margin-bottom: 1rem;">
+                <ol style="list-style: none; display: flex; justify-content: center; gap: 0.5rem; font-size: 0.85rem; color: rgba(255,255,255,0.5);">
+                    <li><a href="https://boltbunny.app?ref=internet-speed-test-streaming" style="color: var(--cyan); text-decoration: none;">Bolt Bunny</a></li>
+                    <li aria-hidden="true">/</li>
+                    <li><a href="https://internet-speed-test.app" style="color: var(--cyan); text-decoration: none;">Internet Speed Test</a></li>
+                    <li aria-hidden="true">/</li>
+                    <li aria-current="page" data-i18n="breadcrumb.current">Internet Speed for Streaming</li>
+                </ol>
+            </nav>
+
+            <h1 data-i18n="hero.title">Internet Speed for Streaming: Netflix, YouTube, Twitch & More</h1>
+            <p class="subtitle" data-i18n="hero.subtitle">Find out exactly how much bandwidth you need for buffer-free streaming in SD, HD, and 4K on every major platform.</p>
+
+            <a href="https://boltbunny.app?ref=internet-speed-test-streaming&autostart=1" target="_blank" rel="noopener noreferrer" class="cta-button">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polygon points="10 8 16 12 10 16 10 8"/>
+                </svg>
+                <span data-i18n="hero.cta">Test Your Streaming Speed</span>
+            </a>
+            <p class="cta-hint">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                <span data-i18n="hero.ctaHint">Opens Bolt Bunny and starts testing instantly</span>
+            </p>
+        </header>
+
+        <!-- Download Speed Requirements by Service -->
+        <section>
+            <h2 class="section-title" style="text-align: center;" data-i18n="download.title">Download Speed Requirements by Service</h2>
+            <p class="section-subtitle" style="text-align: center;" data-i18n="download.subtitle">Minimum download speeds recommended by each streaming platform for smooth, uninterrupted playback.</p>
+
+            <div class="speed-table-wrapper">
+                <table class="speed-table">
+                    <thead>
+                        <tr>
+                            <th data-i18n="download.thService">Streaming Service</th>
+                            <th>SD (480p)</th>
+                            <th>HD (1080p)</th>
+                            <th>4K / UHD</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Netflix</strong></td>
+                            <td><span class="speed-badge badge-basic">1 Mbps</span></td>
+                            <td><span class="speed-badge badge-good">5 Mbps</span></td>
+                            <td><span class="speed-badge badge-excellent">15 Mbps</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>YouTube</strong></td>
+                            <td><span class="speed-badge badge-basic">1.1 Mbps</span></td>
+                            <td><span class="speed-badge badge-good">5 Mbps</span></td>
+                            <td><span class="speed-badge badge-excellent">20 Mbps</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Disney+</strong></td>
+                            <td><span class="speed-badge badge-basic">1.5 Mbps</span></td>
+                            <td><span class="speed-badge badge-good">5 Mbps</span></td>
+                            <td><span class="speed-badge badge-excellent">25 Mbps</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Hulu</strong></td>
+                            <td><span class="speed-badge badge-basic">1.5 Mbps</span></td>
+                            <td><span class="speed-badge badge-good">6 Mbps</span></td>
+                            <td><span class="speed-badge badge-excellent">16 Mbps</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Amazon Prime Video</strong></td>
+                            <td><span class="speed-badge badge-basic">1 Mbps</span></td>
+                            <td><span class="speed-badge badge-good">5 Mbps</span></td>
+                            <td><span class="speed-badge badge-excellent">15 Mbps</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Apple TV+</strong></td>
+                            <td><span class="speed-badge badge-basic">2 Mbps</span></td>
+                            <td><span class="speed-badge badge-good">8 Mbps</span></td>
+                            <td><span class="speed-badge badge-excellent">25 Mbps</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Spotify (audio)</strong></td>
+                            <td colspan="3" style="text-align: center;"><span class="speed-badge badge-basic">0.5 Mbps</span> (high quality audio streaming)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="prose" style="margin-top: 2rem;">
+                <p data-i18n="download.note">These are the minimum speeds recommended by each platform. In practice, you should aim for at least double the listed minimum to account for network fluctuations, other connected devices, and background processes that consume bandwidth.</p>
+            </div>
+        </section>
+
+        <!-- Upload Speed for Live Streaming -->
+        <section>
+            <h2 class="section-title" style="text-align: center;" data-i18n="upload.title">Upload Speed for Live Streaming</h2>
+            <p class="section-subtitle" style="text-align: center;" data-i18n="upload.subtitle">Going live on Twitch, YouTube, or Facebook Gaming? Your upload speed is what matters most.</p>
+
+            <div class="speed-table-wrapper">
+                <table class="speed-table">
+                    <thead>
+                        <tr>
+                            <th>Platform</th>
+                            <th>720p 30fps</th>
+                            <th>1080p 30fps</th>
+                            <th>1080p 60fps</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Twitch</strong></td>
+                            <td><span class="speed-badge badge-basic">3 Mbps</span></td>
+                            <td><span class="speed-badge badge-good">4.5 Mbps</span></td>
+                            <td><span class="speed-badge badge-great">6 Mbps</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>YouTube Live</strong></td>
+                            <td><span class="speed-badge badge-basic">3 Mbps</span></td>
+                            <td><span class="speed-badge badge-good">5 Mbps</span></td>
+                            <td><span class="speed-badge badge-great">8 Mbps</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Facebook Gaming</strong></td>
+                            <td><span class="speed-badge badge-basic">3 Mbps</span></td>
+                            <td><span class="speed-badge badge-good">4.5 Mbps</span></td>
+                            <td><span class="speed-badge badge-great">7 Mbps</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="prose" style="margin-top: 2rem;">
+                <p data-i18n="upload.note1">Unlike watching streams, broadcasting live video depends entirely on your <strong>upload speed</strong>, not download. Most home internet plans have significantly lower upload than download speeds, so test your upload speed before going live.</p>
+                <p data-i18n="upload.note2">For a stable broadcast, your upload speed should be at least 1.5x the bitrate you plan to stream at. If you are streaming at 6,000 kbps (6 Mbps), aim for at least 9 Mbps upload. This headroom prevents dropped frames and stream stuttering when your network fluctuates.</p>
+            </div>
+        </section>
+
+        <!-- How Many Streams Can Your Connection Handle? -->
+        <section>
+            <h2 class="section-title" style="text-align: center;" data-i18n="streams.title">How Many Streams Can Your Connection Handle?</h2>
+            <p class="section-subtitle" style="text-align: center;" data-i18n="streams.subtitle">Multiple people streaming at once? Here is how to estimate whether your bandwidth can keep up.</p>
+
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3 data-i18n="streams.25.title">25 Mbps Connection</h3>
+                    <p data-i18n="streams.25.desc">A 25 Mbps connection can comfortably handle:</p>
+                    <ul>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            1 stream in 4K, or
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            4 to 5 streams in HD, or
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Light web browsing alongside 1 to 2 HD streams
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="content-card">
+                    <h3 data-i18n="streams.100.title">100 Mbps Connection</h3>
+                    <p data-i18n="streams.100.desc">A 100 Mbps connection can comfortably handle:</p>
+                    <ul>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            4 to 5 simultaneous 4K streams
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            A household of heavy streamers
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Streaming plus gaming plus video calls at the same time
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="content-card">
+                    <h3 data-i18n="streams.300.title">300+ Mbps Connection</h3>
+                    <p data-i18n="streams.300.desc">A 300+ Mbps connection can comfortably handle:</p>
+                    <ul>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            10+ simultaneous 4K streams
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Large households and smart home devices
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Bandwidth to spare for downloads, backups, and updates
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="prose" style="margin-top: 2rem;">
+                <p>To estimate how many streams your connection supports, divide your download speed by the per-stream requirement. For Netflix 4K at 15 Mbps per stream, a 100 Mbps connection supports roughly 6 simultaneous 4K streams. Keep in mind that other devices on your network (phones, smart speakers, security cameras) also consume bandwidth.</p>
+            </div>
+        </section>
+
+        <!-- Buffering Troubleshooting -->
+        <section>
+            <h2 class="section-title" style="text-align: center;" data-i18n="buffering.title">Why Buffering Happens Even with Fast Internet</h2>
+            <p class="section-subtitle" style="text-align: center;" data-i18n="buffering.subtitle">Fast speeds on paper do not always mean smooth streaming. Here are the common culprits.</p>
+
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3 data-i18n="buffering.wifi.title">Wi-Fi Interference</h3>
+                    <p data-i18n="buffering.wifi.desc">Even with a fast plan, Wi-Fi signal degrades through walls, floors, and distance. Microwaves, baby monitors, and neighboring networks on the same channel can all cause interference that drops your effective speed well below what your ISP provides.</p>
+                </div>
+
+                <div class="content-card">
+                    <h3 data-i18n="buffering.congestion.title">Network Congestion</h3>
+                    <p data-i18n="buffering.congestion.desc">During peak hours (typically 7 PM to 11 PM), everyone in your neighborhood is online. Your ISP shares bandwidth across the local node, meaning your real-world speed can drop significantly even though your plan has not changed.</p>
+                </div>
+
+                <div class="content-card">
+                    <h3 data-i18n="buffering.router.title">Router Bottlenecks</h3>
+                    <p data-i18n="buffering.router.desc">An outdated router can be the weakest link. Older routers may not support modern Wi-Fi standards (Wi-Fi 6 or 6E), limiting throughput regardless of your plan speed. ISP-provided routers are often underpowered for households with many devices.</p>
+                </div>
+
+                <div class="content-card">
+                    <h3 data-i18n="buffering.background.title">Background Bandwidth Usage</h3>
+                    <p data-i18n="buffering.background.desc">Cloud backups, system updates, other tabs streaming video, game downloads, and smart home devices can silently consume bandwidth. A single large download can eat up your entire connection and cause buffering on everything else.</p>
+                </div>
+
+                <div class="content-card">
+                    <h3 data-i18n="buffering.dns.title">DNS and Server Issues</h3>
+                    <p data-i18n="buffering.dns.desc">Slow DNS resolution or congested content delivery servers on the streaming provider's end can cause buffering that has nothing to do with your connection. Switching to a faster DNS provider (like 1.1.1.1 or 8.8.8.8) can sometimes help.</p>
+                </div>
+
+                <div class="content-card">
+                    <h3 data-i18n="buffering.throttling.title">ISP Throttling</h3>
+                    <p data-i18n="buffering.throttling.desc">Some ISPs intentionally slow down streaming traffic during busy periods. If your speed test shows fast numbers but streaming still buffers, your ISP may be throttling specific services. A VPN can sometimes bypass this.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tips for Better Streaming -->
+        <section>
+            <h2 class="section-title" style="text-align: center;" data-i18n="tips.title">Tips for Better Streaming Performance</h2>
+            <p class="section-subtitle" style="text-align: center;" data-i18n="tips.subtitle">Practical steps to eliminate buffering and get the most out of your connection.</p>
+
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3 data-i18n="tips.wired.title">Use a Wired Connection</h3>
+                    <p data-i18n="tips.wired.desc">Ethernet cables provide a direct, stable link to your router with zero interference. If your streaming device supports Ethernet, plugging in is the single most effective thing you can do to eliminate buffering.</p>
+                    <ul>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            No signal loss through walls
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Consistent speeds regardless of distance
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Lower latency for live streams
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="content-card">
+                    <h3 data-i18n="tips.close.title">Close Background Apps</h3>
+                    <p data-i18n="tips.close.desc">Applications running in the background can silently consume bandwidth and processing power. Before streaming, close unnecessary tabs, pause cloud syncing services, and check for queued downloads.</p>
+                    <ul>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Pause cloud backups (iCloud, Google Drive, OneDrive)
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Pause game and system updates
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Close unused browser tabs with video content
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="content-card">
+                    <h3 data-i18n="tips.router.title">Optimize Router Placement</h3>
+                    <p data-i18n="tips.router.desc">Router placement has a dramatic effect on Wi-Fi performance. Small changes in position can make the difference between buffering and smooth 4K streaming.</p>
+                    <ul>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Place the router in a central, elevated location
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Keep it away from microwaves and metal objects
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Use the 5 GHz band for streaming (faster, shorter range)
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="content-card">
+                    <h3 data-i18n="tips.upgrade.title">Upgrade Your Equipment</h3>
+                    <p data-i18n="tips.upgrade.desc">If your router is more than 3 to 4 years old, it may not support the latest Wi-Fi standards. A Wi-Fi 6 or Wi-Fi 6E router handles more simultaneous devices and delivers faster speeds to each one.</p>
+                    <ul>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Wi-Fi 6 routers handle 4K streaming across multiple devices
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Mesh systems eliminate dead zones in large homes
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            Consider a dedicated streaming device over a smart TV app
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bottom CTA -->
+        <section class="cta-section">
+            <h2 data-i18n="cta.title">Ready to Test Your Streaming Speed?</h2>
+            <p data-i18n="cta.desc">Find out if your connection can handle 4K streaming, live broadcasting, and multi-device households.</p>
+            <a href="https://boltbunny.app?ref=internet-speed-test-streaming&autostart=1" target="_blank" rel="noopener noreferrer" class="cta-button">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polygon points="10 8 16 12 10 16 10 8"/>
+                </svg>
+                <span data-i18n="cta.button">Test Your Streaming Speed</span>
+            </a>
+        </section>
+
+        <footer>
+            <p data-i18n="footer.copyright">&copy; 2026 Free Internet Speed Test &mdash; Powered by <a href="https://boltbunny.app?ref=internet-speed-test-streaming">Bolt Bunny</a></p>
+            <p style="margin-top: 0.5rem;">
+                <a href="https://boltbunny.app?ref=internet-speed-test-streaming" data-i18n="footer.speedTest">Speed Test</a> ·
+                <a href="https://boltbunny.app/pricing.html" data-i18n="footer.proPlans">Pro Plans</a> ·
+                <a href="/terms.html" data-i18n="footer.terms">Terms</a> ·
+                <a href="/privacy.html" data-i18n="footer.privacy">Privacy</a>
+            </p>
+        </footer>
+    </div>
+
+    <noscript><style>.content-card{opacity:1}</style></noscript>
+    <script>
+        // Fade in elements on scroll
+        var observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in-up');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.content-card').forEach(function(el) {
+            observer.observe(el);
+        });
+    </script>
+
+<!-- Accessibility: Reduced motion -->
+<style>
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+</style>
+
+<!-- GDPR/CCPA Cookie Consent Banner -->
+<style>
+#cookie-consent-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.95);
+    color: white;
+    padding: 20px;
+    z-index: 999999;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+#cookie-consent-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+#cookie-consent-text {
+    flex: 1;
+    min-width: 300px;
+}
+#cookie-consent-buttons {
+    display: flex;
+    gap: 10px;
+}
+.cookie-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.cookie-accept {
+    background: var(--pink);
+    color: white;
+}
+.cookie-accept:hover {
+    background: #d4004e;
+}
+.cookie-reject {
+    background: #6b7280;
+    color: white;
+}
+.cookie-reject:hover {
+    background: #4b5563;
+}
+.cookie-preferences {
+    background: transparent;
+    color: #93c5fd;
+    border: 1px solid #93c5fd;
+}
+.cookie-preferences:hover {
+    background: rgba(147, 197, 253, 0.1);
+}
+#cookie-prefs-panel {
+    display: none;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+.cookie-pref-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+.cookie-pref-label {
+    font-size: 14px;
+}
+.cookie-pref-label small {
+    display: block;
+    color: #9ca3af;
+    font-size: 12px;
+}
+.cookie-toggle {
+    position: relative;
+    width: 44px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.cookie-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.cookie-toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: #4b5563;
+    border-radius: 24px;
+    transition: background 0.3s;
+}
+.cookie-toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.cookie-toggle input:checked + .cookie-toggle-slider {
+    background: var(--pink);
+}
+.cookie-toggle input:checked + .cookie-toggle-slider:before {
+    transform: translateX(20px);
+}
+.cookie-toggle input:disabled + .cookie-toggle-slider {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+</style>
+
+<div id="cookie-consent-banner" style="display: none;" role="dialog" aria-label="Cookie consent" aria-live="polite">
+    <div id="cookie-consent-content">
+        <div id="cookie-consent-text">
+            <strong>We value your privacy</strong><br>
+            We use cookies to enhance your experience and analyze site traffic.
+            <a href="/privacy.html" style="color: #60a5fa; text-decoration: underline;">Learn more</a>
+        </div>
+        <div id="cookie-consent-buttons">
+            <button class="cookie-btn cookie-preferences" onclick="toggleCookiePrefs()">Manage Preferences</button>
+            <button class="cookie-btn cookie-reject" onclick="rejectCookies()">Reject All</button>
+            <button class="cookie-btn cookie-accept" onclick="acceptCookies()">Accept All</button>
+        </div>
+    </div>
+    <div id="cookie-prefs-panel">
+        <div class="cookie-pref-row">
+            <div class="cookie-pref-label">
+                <strong>Necessary</strong>
+                <small>Required for the site to function. Cannot be disabled.</small>
+            </div>
+            <label class="cookie-toggle">
+                <input type="checkbox" checked disabled>
+                <span class="cookie-toggle-slider"></span>
+            </label>
+        </div>
+        <div class="cookie-pref-row">
+            <div class="cookie-pref-label">
+                <strong>Analytics</strong>
+                <small>Help us understand how visitors interact with our site.</small>
+            </div>
+            <label class="cookie-toggle">
+                <input type="checkbox" id="pref-analytics" checked>
+                <span class="cookie-toggle-slider"></span>
+            </label>
+        </div>
+        <div class="cookie-pref-row">
+            <div class="cookie-pref-label">
+                <strong>Marketing</strong>
+                <small>Used to deliver relevant ads and track campaigns.</small>
+            </div>
+            <label class="cookie-toggle">
+                <input type="checkbox" id="pref-marketing">
+                <span class="cookie-toggle-slider"></span>
+            </label>
+        </div>
+        <div style="text-align: right; margin-top: 10px;">
+            <button class="cookie-btn cookie-accept" onclick="savePreferences()">Save Preferences</button>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    var CONSENT_KEY = 'cookieConsent';
+    var PREFS_KEY = 'cookiePreferences';
+    var COOKIE_MAX_AGE = 365 * 24 * 60 * 60;
+    var banner = document.getElementById('cookie-consent-banner');
+
+    function setCookie(name, value, maxAge) {
+        document.cookie = name + '=' + encodeURIComponent(value) +
+            ';path=/;max-age=' + maxAge + ';SameSite=Lax;Secure';
+    }
+
+    function getCookie(name) {
+        var match = document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]*)'));
+        return match ? decodeURIComponent(match[1]) : null;
+    }
+
+    function showBanner() {
+        if (banner) banner.style.display = 'block';
+    }
+
+    function hideBanner() {
+        if (banner) banner.style.display = 'none';
+    }
+
+    function setConsent(value, prefs) {
+        setCookie(CONSENT_KEY, value, COOKIE_MAX_AGE);
+        localStorage.setItem(CONSENT_KEY, value);
+        if (prefs) {
+            var prefsStr = JSON.stringify(prefs);
+            setCookie(PREFS_KEY, prefsStr, COOKIE_MAX_AGE);
+            localStorage.setItem(PREFS_KEY, prefsStr);
+        }
+        hideBanner();
+    }
+
+    window.acceptCookies = function() {
+        setConsent('accepted', { necessary: true, analytics: true, marketing: true });
+    };
+
+    window.rejectCookies = function() {
+        setConsent('rejected', { necessary: true, analytics: false, marketing: false });
+    };
+
+    window.toggleCookiePrefs = function() {
+        var panel = document.getElementById('cookie-prefs-panel');
+        if (panel) {
+            panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+        }
+    };
+
+    window.savePreferences = function() {
+        var analytics = document.getElementById('pref-analytics').checked;
+        var marketing = document.getElementById('pref-marketing').checked;
+        setConsent(analytics ? 'accepted' : 'partial', { necessary: true, analytics: analytics, marketing: marketing });
+    };
+
+    var consent = getCookie(CONSENT_KEY) || localStorage.getItem(CONSENT_KEY);
+    if (!consent) {
+        setTimeout(showBanner, 1000);
+    }
+})();
+</script>
+
+<script>
+window.TRANSLATIONS = { es: {
+  'breadcrumb.current': 'Velocidad para streaming',
+  'hero.title': 'Velocidad de internet para streaming: Netflix, YouTube, Twitch y más',
+  'hero.subtitle': 'Descubre exactamente cuánto ancho de banda necesitas para ver streaming sin cortes en SD, HD y 4K en cada plataforma.',
+  'hero.cta': 'Mide tu velocidad de streaming',
+  'hero.ctaHint': 'Abre Bolt Bunny y comienza a medir al instante',
+  'download.title': 'Velocidad de descarga por servicio',
+  'download.subtitle': 'Velocidades mínimas de descarga recomendadas por cada plataforma para una reproducción fluida.',
+  'download.thService': 'Servicio de streaming',
+  'download.note': 'Estas son las velocidades mínimas recomendadas por cada plataforma. En la práctica, conviene apuntar al menos al doble del mínimo para compensar fluctuaciones de red, otros dispositivos conectados y procesos en segundo plano que consumen ancho de banda.',
+  'upload.title': 'Velocidad de subida para streaming en vivo',
+  'upload.subtitle': '¿Vas a transmitir en vivo en Twitch, YouTube o Facebook Gaming? Tu velocidad de subida es lo más importante.',
+  'upload.note1': 'A diferencia de ver streams, transmitir video en vivo depende totalmente de tu <strong>velocidad de subida</strong>, no de la descarga. La mayoría de planes de internet tienen subida mucho menor que descarga, así que mide tu velocidad de subida antes de transmitir.',
+  'upload.note2': 'Para una transmisión estable, tu velocidad de subida debe ser al menos 1.5x el bitrate al que planeas transmitir. Si transmites a 6,000 kbps (6 Mbps), apunta a al menos 9 Mbps de subida. Este margen evita frames caídos y tartamudeo cuando tu red fluctúa.',
+  'streams.title': '¿Cuántos streams soporta tu conexión?',
+  'streams.subtitle': '¿Varias personas haciendo streaming a la vez? Así puedes estimar si tu ancho de banda es suficiente.',
+  'streams.25.title': 'Conexión de 25 Mbps',
+  'streams.25.desc': 'Una conexión de 25 Mbps puede manejar cómodamente:',
+  'streams.100.title': 'Conexión de 100 Mbps',
+  'streams.100.desc': 'Una conexión de 100 Mbps puede manejar cómodamente:',
+  'streams.300.title': 'Conexión de 300+ Mbps',
+  'streams.300.desc': 'Una conexión de 300+ Mbps puede manejar cómodamente:',
+  'buffering.title': 'Por qué hay buffering incluso con internet rápido',
+  'buffering.subtitle': 'Velocidades rápidas en papel no siempre significan streaming fluido. Estas son las causas comunes.',
+  'buffering.wifi.title': 'Interferencia Wi-Fi',
+  'buffering.wifi.desc': 'Incluso con un buen plan, la señal Wi-Fi se degrada a través de paredes, pisos y distancia. Microondas, monitores de bebé y redes vecinas en el mismo canal pueden causar interferencia que reduce tu velocidad efectiva muy por debajo de lo que tu ISP ofrece.',
+  'buffering.congestion.title': 'Congestión de red',
+  'buffering.congestion.desc': 'En horas pico (generalmente de 7 PM a 11 PM), todos en tu vecindario están conectados. Tu ISP comparte ancho de banda en el nodo local, lo que significa que tu velocidad real puede bajar significativamente aunque tu plan no haya cambiado.',
+  'buffering.router.title': 'Cuello de botella del router',
+  'buffering.router.desc': 'Un router desactualizado puede ser el eslabón más débil. Los routers antiguos pueden no soportar los estándares Wi-Fi modernos (Wi-Fi 6 o 6E), limitando el rendimiento sin importar la velocidad de tu plan. Los routers de los ISP suelen ser insuficientes para hogares con muchos dispositivos.',
+  'buffering.background.title': 'Uso de ancho de banda en segundo plano',
+  'buffering.background.desc': 'Copias de seguridad en la nube, actualizaciones del sistema, otras pestañas con video, descargas de juegos y dispositivos inteligentes pueden consumir ancho de banda silenciosamente. Una sola descarga grande puede agotar toda tu conexión y causar buffering en todo lo demás.',
+  'buffering.dns.title': 'Problemas de DNS y servidor',
+  'buffering.dns.desc': 'La resolución DNS lenta o servidores de entrega de contenido congestionados del lado del proveedor de streaming pueden causar buffering sin relación con tu conexión. Cambiar a un proveedor DNS más rápido (como 1.1.1.1 o 8.8.8.8) puede ayudar.',
+  'buffering.throttling.title': 'Throttling del ISP',
+  'buffering.throttling.desc': 'Algunos ISP reducen intencionalmente la velocidad del tráfico de streaming en horarios concurridos. Si tu test muestra buenas velocidades pero el streaming aún tiene buffering, tu ISP puede estar limitando servicios específicos. Una VPN a veces puede evitar esto.',
+  'tips.title': 'Consejos para mejorar el rendimiento de streaming',
+  'tips.subtitle': 'Pasos prácticos para eliminar el buffering y aprovechar al máximo tu conexión.',
+  'tips.wired.title': 'Usa una conexión por cable',
+  'tips.wired.desc': 'Los cables Ethernet proporcionan un enlace directo y estable a tu router sin interferencias. Si tu dispositivo de streaming soporta Ethernet, conectarlo por cable es lo más efectivo que puedes hacer para eliminar el buffering.',
+  'tips.close.title': 'Cierra aplicaciones en segundo plano',
+  'tips.close.desc': 'Las aplicaciones ejecutándose en segundo plano consumen ancho de banda y potencia de procesamiento silenciosamente. Antes de ver streaming, cierra pestañas innecesarias, pausa servicios de sincronización en la nube y revisa descargas en cola.',
+  'tips.router.title': 'Optimiza la ubicación del router',
+  'tips.router.desc': 'La ubicación del router tiene un efecto enorme en el rendimiento Wi-Fi. Pequeños cambios de posición pueden marcar la diferencia entre buffering y streaming fluido en 4K.',
+  'tips.upgrade.title': 'Actualiza tu equipo',
+  'tips.upgrade.desc': 'Si tu router tiene más de 3-4 años, puede que no soporte los últimos estándares Wi-Fi. Un router Wi-Fi 6 o Wi-Fi 6E maneja más dispositivos simultáneos y ofrece mayor velocidad a cada uno.',
+  'cta.title': '¿Listo para medir tu velocidad de streaming?',
+  'cta.desc': 'Descubre si tu conexión puede manejar streaming en 4K, transmisiones en vivo y hogares con múltiples dispositivos.',
+  'cta.button': 'Mide tu velocidad de streaming',
+  'footer.copyright': '&copy; 2026 Test de Velocidad Gratis &mdash; Desarrollado por <a href="https://boltbunny.app?ref=internet-speed-test-streaming">Bolt Bunny</a>',
+  'footer.speedTest': 'Test de velocidad',
+  'footer.proPlans': 'Planes Pro',
+  'footer.terms': 'Términos',
+  'footer.privacy': 'Privacidad'
+}};
+</script>
+<script src="i18n.js"></script>
+
+</body>
+</html>

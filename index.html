@@ -1,0 +1,1797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Internet Speed Test - Test Your Download & Upload Speed | No Ads</title>
+    <meta name="description" content="Test your internet speed for free. Check download speed, upload speed, ping, and jitter instantly. No ads, no tracking, no signup. Get your network quality score now with our AIM Score metric.">
+    <meta name="keywords" content="internet speed test, speed test, internet speed, download speed, upload speed, ping test, network speed test, bandwidth test, connection speed, wifi speed test, broadband test, free speed test">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Free Internet Speed Test - Test Your Connection Speed">
+    <meta property="og:description" content="Free internet speed test with AIM Score. Check download, upload, ping instantly. No ads, no tracking.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://internet-speed-test.app">
+    <meta property="og:image" content="https://internet-speed-test.app/og-image.png">
+    <meta property="og:image:width" content="1536">
+    <meta property="og:image:height" content="1024">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Free Internet Speed Test - Test Your Connection Speed">
+    <meta name="twitter:description" content="Free internet speed test with AIM Score. Check download, upload, ping instantly. No ads, no tracking.">
+    <meta name="twitter:image" content="https://internet-speed-test.app/og-image.png">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#ff006e">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://internet-speed-test.app">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">{
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Free Internet Speed Test",
+        "url": "https://internet-speed-test.app",
+        "description": "Free internet speed test - check download speed, upload speed, ping, and jitter instantly. No ads, no tracking.",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "Web",
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
+    }</script>
+    <script type="application/ld+json">{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Is this speed test accurate?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes! Our speed test uses industry-standard methods and connects to high-performance servers to measure your true internet speed. For best results, close other applications and connect via Ethernet if possible."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why is my speed slower than advertised?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ISPs advertise \"up to\" speeds, not guaranteed speeds. WiFi signal strength, network congestion, time of day, distance from router, and connected devices all affect your actual speed. For the most accurate test, use a wired connection."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is a network quality score?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A network quality score combines multiple metrics — download speed, upload speed, ping, and jitter — into one easy-to-understand number (0-100). It gives you a complete picture of your connection quality at a glance, rather than looking at each metric separately."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is a good download speed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A good download speed depends on your usage. 25 Mbps is enough for HD streaming and video calls. 100+ Mbps handles 4K streaming and gaming. For households with multiple users, 200-300 Mbps gives everyone headroom."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why is my internet so slow at night?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Internet speeds often drop during peak hours (7-11 PM) because more people in your area are online. This is called network congestion. Your ISP shares bandwidth across a neighborhood, so heavy usage from neighbors can slow everyone down."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What does Mbps mean?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Mbps stands for megabits per second — it measures how much data can transfer in one second. Don't confuse it with MBps (megabytes per second), which is 8x larger. When your ISP says 100 Mbps, that translates to about 12.5 megabytes per second of actual file download speed."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is a good ping for gaming?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "For competitive gaming, you want under 20ms ping. For casual gaming, anything under 50ms is fine. Above 100ms, you'll notice lag. Jitter under 10ms means a stable connection. Use Ethernet instead of WiFi for best gaming performance."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do internet speed tests work?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Speed tests work by downloading and uploading test data between your device and a server. For download, the test sends large chunks of data to your browser and measures how fast they arrive. For upload, your browser sends data back. Ping is measured by sending tiny packets and timing the round trip."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "WiFi vs Ethernet: which gives a more accurate speed test?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ethernet (wired) always gives more accurate results because WiFi adds overhead and is affected by walls, distance, interference, and other devices. If your WiFi speed test shows less than your plan, try testing with an Ethernet cable."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How often should I test my speed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Test regularly if you're experiencing issues, considering an upgrade, or moving to a new location. Many people test weekly to track their connection quality over time."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is this test really free?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "100% free forever. No ads, no tracking, no account required. We believe everyone deserves to know their actual internet speed without jumping through hoops or dealing with annoying advertisements."
+                }
+            }
+        ]
+    }</script>
+
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Internet Speed Test", "item": "https://internet-speed-test.app"},
+            {"@type": "ListItem", "position": 2, "name": "Free Speed Test", "item": "https://internet-speed-test.app"}
+        ]
+    }</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --pink: #ff006e;
+            --cyan: #00d4ff;
+            --purple: #8b5cf6;
+            --green: #00c853;
+            --orange: #ff9100;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0a0f;
+            color: white;
+            min-height: 100vh;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Skip to content */
+        .skip-to-content { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; z-index: 9999; }
+        .skip-to-content:focus { position: fixed; top: 10px; left: 10px; width: auto; height: auto; padding: 12px 24px; background: #00d4ff; color: #000; font-weight: 600; border-radius: 8px; text-decoration: none; }
+
+        /* Gradient orbs */
+        .orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.3;
+            pointer-events: none;
+            z-index: 1;
+            animation: float 20s ease-in-out infinite;
+        }
+
+        .orb-1 {
+            width: 500px;
+            height: 500px;
+            background: var(--pink);
+            top: -250px;
+            left: -250px;
+            animation-delay: 0s;
+        }
+
+        .orb-2 {
+            width: 400px;
+            height: 400px;
+            background: var(--cyan);
+            bottom: -200px;
+            right: -200px;
+            animation-delay: -10s;
+        }
+
+        .orb-3 {
+            width: 350px;
+            height: 350px;
+            background: var(--purple);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation-delay: -5s;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(30px, -50px) scale(1.1); }
+            66% { transform: translate(-20px, 30px) scale(0.9); }
+        }
+
+        .container {
+            position: relative;
+            z-index: 10;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 3rem 1.5rem 4rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 2rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--pink);
+        }
+
+        h1 {
+            font-size: 4.5rem;
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #fff 0%, var(--cyan) 50%, var(--pink) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+
+        /* Hero speedometer */
+        .hero-gauge {
+            position: relative;
+            width: 220px;
+            height: 120px;
+            margin: 0 auto 2rem;
+        }
+
+        .hero-gauge svg {
+            width: 100%;
+            height: 100%;
+            overflow: visible;
+        }
+
+        .gauge-track {
+            fill: none;
+            stroke: rgba(255,255,255,0.08);
+            stroke-width: 12;
+            stroke-linecap: round;
+        }
+
+        .gauge-fill {
+            fill: none;
+            stroke: url(#gaugeGradient);
+            stroke-width: 12;
+            stroke-linecap: round;
+            stroke-dasharray: 283;
+            stroke-dashoffset: 283;
+            animation: gaugeLoad 2s ease-out 0.5s forwards;
+        }
+
+        .gauge-needle {
+            transform-origin: 110px 110px;
+            animation: needleSweep 2s ease-out 0.5s forwards;
+        }
+
+        .gauge-value {
+            font-size: 2.5rem;
+            font-weight: 900;
+            fill: white;
+            text-anchor: middle;
+        }
+
+        .gauge-unit {
+            font-size: 0.75rem;
+            font-weight: 600;
+            fill: rgba(255,255,255,0.5);
+            text-anchor: middle;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        @keyframes gaugeLoad {
+            to { stroke-dashoffset: 85; }
+        }
+
+        @keyframes needleSweep {
+            from { transform: rotate(-90deg); }
+            to { transform: rotate(60deg); }
+        }
+
+        .features-list {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin: 2rem 0 3rem;
+            font-size: 1rem;
+            color: rgba(255,255,255,0.6);
+        }
+
+        .features-list span {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .features-list svg {
+            color: var(--green);
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            padding: 1.5rem 3.5rem;
+            background: linear-gradient(135deg, var(--pink), #d4004e);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 15px 50px rgba(255,0,110,0.5);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
+            animation: ctaPulse 3s ease-in-out infinite;
+        }
+
+        @keyframes ctaPulse {
+            0%, 100% { box-shadow: 0 15px 50px rgba(255,0,110,0.4); }
+            50% { box-shadow: 0 15px 60px rgba(255,0,110,0.7), 0 0 40px rgba(255,0,110,0.2); }
+        }
+
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.6s;
+        }
+
+        .cta-button:hover::before {
+            left: 100%;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 20px 60px rgba(255,0,110,0.6);
+            animation: none;
+        }
+
+        .cta-hint {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+        }
+
+        .powered-by {
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.4);
+        }
+
+        /* Stats Section */
+        .stats-section {
+            margin: 5rem 0;
+            text-align: center;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .stat-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 20px;
+            padding: 2.5rem 1.5rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            inset: -1px;
+            border-radius: 20px;
+            padding: 1px;
+            background: linear-gradient(135deg, transparent 40%, var(--cyan) 100%);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .stat-card:hover {
+            background: rgba(255,255,255,0.06);
+            transform: translateY(-10px);
+        }
+
+        .stat-card:hover::before {
+            opacity: 1;
+        }
+
+        .stat-icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 1.5rem;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        .stat-card:nth-child(1) .stat-icon {
+            background: var(--cyan);
+            box-shadow: 0 10px 30px rgba(0,212,255,0.3);
+        }
+        .stat-card:nth-child(1)::before {
+            background: linear-gradient(135deg, transparent 40%, var(--cyan) 100%);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+        }
+
+        .stat-card:nth-child(2) .stat-icon {
+            background: var(--pink);
+            box-shadow: 0 10px 30px rgba(255,0,110,0.3);
+        }
+        .stat-card:nth-child(2)::before {
+            background: linear-gradient(135deg, transparent 40%, var(--pink) 100%);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+        }
+
+        .stat-card:nth-child(3) .stat-icon {
+            background: var(--green);
+            box-shadow: 0 10px 30px rgba(0,200,83,0.3);
+        }
+        .stat-card:nth-child(3)::before {
+            background: linear-gradient(135deg, transparent 40%, var(--green) 100%);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+        }
+
+        .stat-card:nth-child(4) .stat-icon {
+            background: var(--orange);
+            box-shadow: 0 10px 30px rgba(255,145,0,0.3);
+        }
+        .stat-card:nth-child(4)::before {
+            background: linear-gradient(135deg, transparent 40%, var(--orange) 100%);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+        }
+
+        .stat-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: white;
+        }
+
+        .stat-desc {
+            font-size: 0.95rem;
+            color: rgba(255,255,255,0.6);
+            line-height: 1.6;
+        }
+
+        /* Section */
+        .section {
+            margin: 6rem 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .section-subtitle {
+            font-size: 1.15rem;
+            color: rgba(255,255,255,0.6);
+        }
+
+        /* Content Cards */
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .content-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 20px;
+            padding: 2.5rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .content-card::before {
+            content: '';
+            position: absolute;
+            inset: -1px;
+            border-radius: 20px;
+            padding: 1px;
+            background: linear-gradient(135deg, transparent 40%, var(--cyan) 100%);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .content-card:hover {
+            background: rgba(255,255,255,0.06);
+            transform: translateY(-5px);
+        }
+
+        .content-card:hover::before {
+            opacity: 1;
+        }
+
+        .content-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--cyan);
+        }
+
+        .content-card p {
+            color: rgba(255,255,255,0.7);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .content-card ul {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .content-card li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            color: rgba(255,255,255,0.7);
+        }
+
+        .content-card li svg {
+            color: var(--green);
+            flex-shrink: 0;
+            margin-top: 0.25rem;
+        }
+
+        /* FAQ Section */
+        .faq-container {
+            max-width: 900px;
+            margin: 3rem auto 0;
+        }
+
+        .faq-item {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        .faq-item:hover {
+            background: rgba(255,255,255,0.05);
+            border-color: rgba(255,255,255,0.12);
+        }
+
+        .faq-question {
+            padding: 1.5rem 2rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            user-select: none;
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: var(--cyan);
+            transition: transform 0.3s;
+        }
+
+        .faq-item.open .faq-question::after {
+            content: '−';
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .faq-item.open .faq-answer {
+            max-height: 300px;
+        }
+
+        .faq-answer p {
+            padding: 0 2rem 1.5rem;
+            color: rgba(255,255,255,0.7);
+            line-height: 1.8;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            text-align: center;
+            padding: 4rem 2rem;
+            margin: 6rem 0;
+            background: linear-gradient(135deg, rgba(255,0,110,0.12), rgba(139,92,246,0.08));
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 30px;
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            inset: -1px;
+            border-radius: 30px;
+            padding: 1px;
+            background: linear-gradient(135deg, var(--pink), var(--purple), var(--cyan));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            opacity: 0.5;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            font-size: 1.15rem;
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 2.5rem;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid rgba(255,255,255,0.08);
+            padding: 3rem 0;
+            text-align: center;
+            color: rgba(255,255,255,0.5);
+            margin-top: 6rem;
+        }
+
+        footer a {
+            color: var(--cyan);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        footer a:hover {
+            color: var(--pink);
+        }
+
+        /* Fade-in initial state */
+        .stat-card, .content-card, .faq-item {
+            opacity: 0;
+        }
+
+        /* Responsive - Tablet */
+        @media (max-width: 1024px) and (min-width: 769px) {
+            h1 {
+                font-size: 3.5rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .content-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .cta-button {
+                padding: 1.25rem 3rem;
+                font-size: 1.25rem;
+            }
+        }
+
+        /* Responsive - Mobile */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .subtitle {
+                font-size: 1.15rem;
+            }
+
+            .features-list {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .cta-button {
+                padding: 1.25rem 2.5rem;
+                font-size: 1.15rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .orb {
+                filter: blur(40px);
+                opacity: 0.15;
+                animation: none;
+            }
+
+            header {
+                padding: 2.5rem 1rem;
+            }
+
+            .hero-gauge {
+                width: 180px;
+                height: 100px;
+            }
+
+            .cta-section {
+                padding: 3rem 1.5rem;
+                margin: 4rem 0;
+            }
+
+            .cta-section h2 {
+                font-size: 2rem;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+        .inline-icon { display: inline-block; vertical-align: middle; margin: 0 2px; }
+
+        /* Speed Reference Table */
+        .speed-table-wrapper {
+            overflow-x: auto;
+            margin-top: 2rem;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .speed-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            overflow: hidden;
+            min-width: 600px;
+        }
+
+        .speed-table th {
+            background: rgba(255,255,255,0.06);
+            padding: 1rem 1.25rem;
+            text-align: left;
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: rgba(255,255,255,0.7);
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .speed-table td {
+            padding: 1rem 1.25rem;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            color: rgba(255,255,255,0.8);
+            font-size: 0.95rem;
+        }
+
+        .speed-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .speed-table tr:hover td {
+            background: rgba(255,255,255,0.03);
+        }
+
+        .speed-badge {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .badge-basic { background: rgba(255,145,0,0.15); color: var(--orange); }
+        .badge-good { background: rgba(0,200,83,0.15); color: var(--green); }
+        .badge-great { background: rgba(0,212,255,0.15); color: var(--cyan); }
+        .badge-excellent { background: rgba(139,92,246,0.15); color: var(--purple); }
+
+        /* Guide links */
+        .guide-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .guide-link {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1.25rem 1.5rem;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .guide-link:hover {
+            background: rgba(255,255,255,0.06);
+            border-color: var(--cyan);
+            transform: translateY(-2px);
+        }
+
+        .guide-link svg {
+            color: var(--cyan);
+            flex-shrink: 0;
+        }
+    </style>
+    <script>window.SNAPIT_TRACKING_ID='SA_56f8c0f3b16e';</script>
+    <script src="https://snapitanalytics.com/analytics.js" defer></script>
+</head>
+<body>
+
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <div class="container" id="main-content">
+        <header>
+            <div class="logo">
+                <img src="/logo-icon.png" alt="Internet Speed Test" style="width: 40px; height: 40px;" width="40" height="40" decoding="async">
+                Internet Speed Test
+            </div>
+
+            <nav aria-label="Breadcrumb" style="margin-bottom: 1rem;">
+                <ol style="list-style: none; display: flex; justify-content: center; gap: 0.5rem; font-size: 0.85rem; color: rgba(255,255,255,0.5);">
+                    <li><a href="https://boltbunny.app?ref=internet-speed-test" style="color: var(--cyan); text-decoration: none;">Bolt Bunny</a></li>
+                    <li aria-hidden="true">/</li>
+                    <li aria-current="page" data-i18n="breadcrumb.current">Internet Speed Test</li>
+                </ol>
+            </nav>
+
+            <h1 data-i18n="hero.title">Test Your Internet Speed</h1>
+            <p class="subtitle" data-i18n="hero.subtitle">Get instant, accurate results with AIM Score</p>
+
+            <div class="hero-gauge" aria-hidden="true">
+                <svg viewBox="0 0 220 130">
+                    <defs>
+                        <linearGradient id="gaugeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#ff006e"/>
+                            <stop offset="50%" stop-color="#8b5cf6"/>
+                            <stop offset="100%" stop-color="#00d4ff"/>
+                        </linearGradient>
+                    </defs>
+                    <path d="M 20 110 A 90 90 0 0 1 200 110" class="gauge-track"/>
+                    <path d="M 20 110 A 90 90 0 0 1 200 110" class="gauge-fill"/>
+                    <line x1="110" y1="110" x2="110" y2="30" stroke="white" stroke-width="3" stroke-linecap="round" class="gauge-needle" opacity="0.9"/>
+                    <circle cx="110" cy="110" r="6" fill="white"/>
+                    <text x="110" y="100" class="gauge-value">250</text>
+                    <text x="110" y="125" class="gauge-unit">Mbps</text>
+                </svg>
+            </div>
+
+            <div class="features-list">
+                <span>
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    <span data-i18n="hero.noAds">No Ads</span>
+                </span>
+                <span>
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    <span data-i18n="hero.noTracking">No Tracking</span>
+                </span>
+                <span>
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    <span data-i18n="hero.noSignup">No Signup</span>
+                </span>
+                <span>
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    <span data-i18n="hero.free">100% Free</span>
+                </span>
+            </div>
+
+            <a href="https://boltbunny.app?ref=internet-speed-test&autostart=1" target="_blank" rel="noopener noreferrer" class="cta-button">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polygon points="10 8 16 12 10 16 10 8"/>
+                </svg>
+                <span data-i18n="hero.ctaButton">Start Speed Test</span>
+            </a>
+
+            <p class="cta-hint">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                <span data-i18n="hero.ctaHint">Opens Bolt Bunny and starts testing instantly</span>
+            </p>
+
+            <p class="powered-by" data-i18n="hero.poweredBy">Powered by Bolt Bunny - The fastest, most accurate speed test</p>
+        </header>
+
+        <section class="stats-section">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon"><svg class="inline-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg></div>
+                    <div class="stat-title" data-i18n="metrics.download.title">Download Speed</div>
+                    <div class="stat-desc" data-i18n="metrics.download.desc">Measure how fast you can receive data from the internet</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><svg class="inline-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg></div>
+                    <div class="stat-title" data-i18n="metrics.upload.title">Upload Speed</div>
+                    <div class="stat-desc" data-i18n="metrics.upload.desc">Test how quickly you can send data to the internet</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><svg class="inline-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+                    <div class="stat-title" data-i18n="metrics.ping.title">Ping & Latency</div>
+                    <div class="stat-desc" data-i18n="metrics.ping.desc">Check your connection's response time in milliseconds</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><svg class="inline-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+                    <div class="stat-title" data-i18n="metrics.aim.title">AIM Score</div>
+                    <div class="stat-desc" data-i18n="metrics.aim.desc">Get a single quality metric for your entire connection</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="why.title">Why Test Your Internet Speed?</h2>
+                <p class="section-subtitle" data-i18n="why.subtitle">Understanding your connection helps you get the most from your internet</p>
+            </div>
+
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3 data-i18n="why.verify.title">Verify ISP Performance</h3>
+                    <p data-i18n="why.verify.desc">Make sure you're getting the speeds your internet provider promised. ISPs advertise "up to" speeds, but regular testing shows what you actually get.</p>
+                </div>
+
+                <div class="content-card">
+                    <h3 data-i18n="why.troubleshoot.title">Troubleshoot Issues</h3>
+                    <p data-i18n="why.troubleshoot.desc">Slow streaming? Laggy gaming? Test your speed to identify connection problems before they impact your work or entertainment.</p>
+                </div>
+
+                <div class="content-card">
+                    <h3 data-i18n="why.optimize.title">Optimize Performance</h3>
+                    <p data-i18n="why.optimize.desc">Find the best times to download large files or stream 4K content. Understand how network congestion affects your speeds throughout the day.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="numbers.title">What the Numbers Mean</h2>
+            </div>
+
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3 data-i18n="numbers.download.title">Download Speed</h3>
+                    <p data-i18n="numbers.download.desc">Measured in Mbps (megabits per second), this is how fast you receive data from the internet.</p>
+                    <ul>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span data-i18n="numbers.download.li1">5-10 Mbps: Basic browsing & email</span>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span data-i18n="numbers.download.li2">25+ Mbps: HD video streaming</span>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span data-i18n="numbers.download.li3">100+ Mbps: 4K streaming & gaming</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="content-card">
+                    <h3 data-i18n="numbers.upload.title">Upload Speed</h3>
+                    <p data-i18n="numbers.upload.desc">How fast you can send data to the internet. Critical for video calls, cloud backups, and content creation.</p>
+                    <ul>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span data-i18n="numbers.upload.li1">1-3 Mbps: Video conferencing</span>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span data-i18n="numbers.upload.li2">10+ Mbps: HD streaming & large uploads</span>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span data-i18n="numbers.upload.li3">35+ Mbps: 4K streaming upload</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="content-card">
+                    <h3 data-i18n="numbers.pingJitter.title">Ping & Jitter</h3>
+                    <p data-i18n="numbers.pingJitter.desc">Ping is your connection's response time. Jitter measures stability. Both are crucial for gaming and real-time apps.</p>
+                    <ul>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span data-i18n="numbers.pingJitter.li1">&lt;20ms ping: Excellent for gaming</span>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span data-i18n="numbers.pingJitter.li2">&lt;50ms ping: Good for most uses</span>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span data-i18n="numbers.pingJitter.li3">&lt;10ms jitter: Stable connection</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="table.title">What Is a Good Internet Speed?</h2>
+                <p class="section-subtitle" data-i18n="table.subtitle">Use this table to see if your speed test results match what you need</p>
+            </div>
+
+            <div class="speed-table-wrapper">
+                <table class="speed-table">
+                    <thead>
+                        <tr>
+                            <th data-i18n="table.thSpeed">Speed</th>
+                            <th data-i18n="table.thRating">Rating</th>
+                            <th data-i18n="table.thGoodFor">Good For</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>1-5 Mbps</strong></td>
+                            <td><span class="speed-badge badge-basic" data-i18n="table.basic">Basic</span></td>
+                            <td data-i18n="table.row1.use">Email, web browsing, social media</td>
+                        </tr>
+                        <tr>
+                            <td><strong>10-25 Mbps</strong></td>
+                            <td><span class="speed-badge badge-good" data-i18n="table.good">Good</span></td>
+                            <td data-i18n="table.row2.use">HD streaming, video calls, light gaming</td>
+                        </tr>
+                        <tr>
+                            <td><strong>25-50 Mbps</strong></td>
+                            <td><span class="speed-badge badge-good" data-i18n="table.good2">Good</span></td>
+                            <td data-i18n="table.row3.use">Work from home, Zoom, multiple devices</td>
+                        </tr>
+                        <tr>
+                            <td><strong>50-100 Mbps</strong></td>
+                            <td><span class="speed-badge badge-great" data-i18n="table.great">Great</span></td>
+                            <td data-i18n="table.row4.use">4K streaming, online gaming, large downloads</td>
+                        </tr>
+                        <tr>
+                            <td><strong>100-300 Mbps</strong></td>
+                            <td><span class="speed-badge badge-great" data-i18n="table.great2">Great</span></td>
+                            <td data-i18n="table.row5.use">Multiple 4K streams, competitive gaming, smart home</td>
+                        </tr>
+                        <tr>
+                            <td><strong>300-500 Mbps</strong></td>
+                            <td><span class="speed-badge badge-excellent" data-i18n="table.excellent">Excellent</span></td>
+                            <td data-i18n="table.row6.use">Heavy household use, live streaming, cloud gaming</td>
+                        </tr>
+                        <tr>
+                            <td><strong>500+ Mbps</strong></td>
+                            <td><span class="speed-badge badge-excellent" data-i18n="table.excellent2">Excellent</span></td>
+                            <td data-i18n="table.row7.use">Everything &mdash; large file transfers, 8K, no limits</td>
+                        </tr>
+                        <tr>
+                            <td><strong>1 Gbps+</strong></td>
+                            <td><span class="speed-badge badge-excellent" data-i18n="table.excellent3">Excellent</span></td>
+                            <td data-i18n="table.row8.use">Future-proof, enterprise-grade, 10+ devices at full speed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="faq.title">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q1">Is this speed test accurate?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a1">Yes! Our speed test uses industry-standard methods and connects to high-performance servers to measure your true internet speed. For best results, close other applications and connect via Ethernet if possible.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q2">What is a good download speed?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a2">A good download speed depends on your usage. 25 Mbps is enough for HD streaming and video calls. 100+ Mbps handles 4K streaming and gaming. For households with multiple users, 200-300 Mbps gives everyone headroom. Most people find 100-200 Mbps to be the sweet spot.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q3">What is a good upload speed?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a3">For most people, 5-10 Mbps upload is sufficient for video calls and cloud backups. If you live stream on Twitch or YouTube, aim for 10-25 Mbps. Content creators uploading large files should target 25+ Mbps. Remote workers on Zoom or Teams need at least 3-5 Mbps upload.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q4">Why is my speed slower than advertised?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a4">ISPs advertise "up to" speeds, not guaranteed speeds. WiFi signal strength, network congestion, time of day, distance from router, and connected devices all affect your actual speed. For the most accurate test, use a wired Ethernet connection and close other applications first.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q5">Why is my internet so slow at night?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a5">Internet speeds often drop during peak hours (7-11 PM) because more people in your area are online. This is called network congestion. Your ISP shares bandwidth across a neighborhood, so heavy usage from neighbors streaming, gaming, and downloading all at once can slow everyone down. If this is consistent, consider upgrading your plan or switching to a fiber connection.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q6">What is the difference between download and upload speed?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a6">Download speed is how fast you receive data from the internet &mdash; this affects streaming, browsing, and downloading files. Upload speed is how fast you send data &mdash; this affects video calls, uploading photos, cloud backups, and live streaming. Most ISP plans give you faster download than upload speeds.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q7">What does Mbps mean?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a7">Mbps stands for megabits per second &mdash; it measures how much data can transfer in one second. Don't confuse it with MBps (megabytes per second), which is 8x larger. When your ISP says "100 Mbps," that translates to about 12.5 megabytes per second of actual file download speed. A 1 GB file would take about 80 seconds at 100 Mbps.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q8">What is AIM Score?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a8">AIM Score is a unique 0-100 metric that combines download speed, upload speed, ping, and jitter into one easy-to-understand number. It gives you a complete picture of your connection quality at a glance, so you don't have to interpret four different numbers yourself.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q9">What is a good ping for gaming?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a9">For competitive gaming, you want under 20ms ping. For casual gaming, anything under 50ms is fine. Above 100ms, you'll notice lag and rubber-banding. Jitter (ping stability) matters too &mdash; under 10ms jitter means a stable connection. Use an Ethernet cable instead of WiFi for the best gaming performance.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q10">How do internet speed tests work?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a10">Speed tests work by downloading and uploading test data between your device and a server. For download, the test sends large chunks of data to your browser and measures how fast they arrive. For upload, your browser sends data back. Ping is measured by sending tiny packets and timing the round trip. The whole process takes 15-30 seconds for accurate results.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q11">Why do different speed tests give different results?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a11">Different speed tests use different servers in different locations, which affects results. Your distance from the test server, the server's capacity, and even the testing method all play a role. For the most consistent results, test multiple times at different times of day. Our test uses multi-connection parallel downloads for the most accurate measurement.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q12">WiFi vs Ethernet: which gives a more accurate speed test?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a12">Ethernet (wired) always gives more accurate results because WiFi adds overhead and is affected by walls, distance, interference, and other devices. If your WiFi speed test shows 100 Mbps but your plan is 300 Mbps, try testing with an Ethernet cable &mdash; you'll likely see the full speed. WiFi 6 routers are faster, but still can't match a direct cable connection.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q13">How to tell if my ISP is throttling my internet?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a13">Run a speed test normally, then run one through a VPN. If your speeds are significantly faster with a VPN, your ISP may be throttling certain types of traffic. Also compare speeds at different times &mdash; consistent slowdowns during peak hours suggest congestion, while slowdowns only on specific services (like Netflix) suggest throttling.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q14">How often should I test my speed?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a14">Test regularly if you're experiencing issues, considering an upgrade, or moving to a new location. Many people test weekly to track their connection quality over time. Testing at different times of day helps you understand peak vs. off-peak performance.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" data-i18n="faq.q15">Is this test really free?</div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a15">100% free forever. No ads, no tracking, no account required. We believe everyone deserves to know their actual internet speed without jumping through hoops or dealing with annoying advertisements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="guides.title">Internet Speed Guides</h2>
+                <p class="section-subtitle" data-i18n="guides.subtitle">In-depth guides to help you understand and improve your connection</p>
+            </div>
+
+            <div class="guide-links">
+                <a href="/internet-speed-for-gaming.html" class="guide-link">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><line x1="6" y1="12" x2="10" y2="12"/><line x1="8" y1="10" x2="8" y2="14"/><circle cx="17" cy="10" r="1"/><circle cx="15" cy="13" r="1"/></svg>
+                    <span data-i18n="guides.gaming">Best Internet Speed for Gaming</span>
+                </a>
+                <a href="/internet-speed-for-streaming.html" class="guide-link">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    <span data-i18n="guides.streaming">Internet Speed for Streaming (Netflix, 4K)</span>
+                </a>
+                <a href="/why-is-my-internet-slow.html" class="guide-link">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                    <span data-i18n="guides.slow">Why Is My Internet So Slow?</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2 data-i18n="cta.title">Ready to Test Your Speed?</h2>
+            <p data-i18n="cta.desc">Get instant, accurate results in seconds. No signup required.</p>
+            <a href="https://boltbunny.app?ref=internet-speed-test&autostart=1" target="_blank" rel="noopener noreferrer" class="cta-button">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polygon points="10 8 16 12 10 16 10 8"/>
+                </svg>
+                <span data-i18n="cta.button">Test Your Speed Now</span>
+            </a>
+        </section>
+
+        <footer>
+            <div class="footer-links" style="margin-bottom: 0.5rem;">
+                <a href="https://boltbunny.app?ref=internet-speed-test">Bolt Bunny</a> ·
+                <a href="https://dnsdingo.com">DNS Dingo</a> ·
+                <a href="/privacy.html" data-i18n="footer.privacy">Privacy</a> ·
+                <a href="/terms.html" data-i18n="footer.terms">Terms</a>
+            </div>
+            <p data-i18n="footer.copyright">&copy; 2026 Free Internet Speed Test &mdash; Powered by <a href="https://boltbunny.app?ref=internet-speed-test">Bolt Bunny</a></p>
+        </footer>
+    </div>
+
+    <noscript><style>.stat-card,.content-card,.faq-item{opacity:1}</style></noscript>
+    <script>
+        // FAQ toggle with accessibility
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.setAttribute('role', 'button');
+            question.setAttribute('aria-expanded', 'false');
+            question.setAttribute('tabindex', '0');
+
+            function toggle() {
+                const item = question.parentElement;
+                const wasOpen = item.classList.contains('open');
+
+                // Close all FAQ items
+                document.querySelectorAll('.faq-item').forEach(faq => {
+                    faq.classList.remove('open');
+                    faq.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+                });
+
+                // Open clicked item if it wasn't open
+                if (!wasOpen) {
+                    item.classList.add('open');
+                    question.setAttribute('aria-expanded', 'true');
+                }
+            }
+
+            question.addEventListener('click', toggle);
+            question.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    toggle();
+                }
+            });
+        });
+
+        // Fade in elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in-up');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.stat-card, .content-card, .faq-item').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+<!-- Accessibility: Reduced motion -->
+<style>
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+</style>
+
+<!-- GDPR/CCPA Cookie Consent Banner — commented out, no user data collected -->
+<!--
+<style>
+#cookie-consent-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.95);
+    color: white;
+    padding: 20px;
+    z-index: 999999;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+#cookie-consent-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+#cookie-consent-text {
+    flex: 1;
+    min-width: 300px;
+}
+#cookie-consent-buttons {
+    display: flex;
+    gap: 10px;
+}
+.cookie-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.cookie-accept {
+    background: var(--pink);
+    color: white;
+}
+.cookie-accept:hover {
+    background: #d4004e;
+}
+.cookie-reject {
+    background: #6b7280;
+    color: white;
+}
+.cookie-reject:hover {
+    background: #4b5563;
+}
+.cookie-preferences {
+    background: transparent;
+    color: #93c5fd;
+    border: 1px solid #93c5fd;
+}
+.cookie-preferences:hover {
+    background: rgba(147, 197, 253, 0.1);
+}
+#cookie-prefs-panel {
+    display: none;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+.cookie-pref-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+.cookie-pref-label {
+    font-size: 14px;
+}
+.cookie-pref-label small {
+    display: block;
+    color: #9ca3af;
+    font-size: 12px;
+}
+.cookie-toggle {
+    position: relative;
+    width: 44px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.cookie-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.cookie-toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: #4b5563;
+    border-radius: 24px;
+    transition: background 0.3s;
+}
+.cookie-toggle-slider:before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.cookie-toggle input:checked + .cookie-toggle-slider {
+    background: var(--pink);
+}
+.cookie-toggle input:checked + .cookie-toggle-slider:before {
+    transform: translateX(20px);
+}
+.cookie-toggle input:disabled + .cookie-toggle-slider {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+</style>
+
+<div id="cookie-consent-banner" style="display: none;" role="dialog" aria-label="Cookie consent" aria-live="polite">
+    <div id="cookie-consent-content">
+        <div id="cookie-consent-text">
+            <strong>We value your privacy</strong><br>
+            We use cookies to enhance your experience and analyze site traffic.
+            <a href="/privacy.html" style="color: #60a5fa; text-decoration: underline;">Learn more</a>
+        </div>
+        <div id="cookie-consent-buttons">
+            <button class="cookie-btn cookie-preferences" onclick="toggleCookiePrefs()">Manage Preferences</button>
+            <button class="cookie-btn cookie-reject" onclick="rejectCookies()">Reject All</button>
+            <button class="cookie-btn cookie-accept" onclick="acceptCookies()">Accept All</button>
+        </div>
+    </div>
+    <div id="cookie-prefs-panel">
+        <div class="cookie-pref-row">
+            <div class="cookie-pref-label">
+                <strong>Necessary</strong>
+                <small>Required for the site to function. Cannot be disabled.</small>
+            </div>
+            <label class="cookie-toggle">
+                <input type="checkbox" checked disabled>
+                <span class="cookie-toggle-slider"></span>
+            </label>
+        </div>
+        <div class="cookie-pref-row">
+            <div class="cookie-pref-label">
+                <strong>Analytics</strong>
+                <small>Help us understand how visitors interact with our site.</small>
+            </div>
+            <label class="cookie-toggle">
+                <input type="checkbox" id="pref-analytics" checked>
+                <span class="cookie-toggle-slider"></span>
+            </label>
+        </div>
+        <div class="cookie-pref-row">
+            <div class="cookie-pref-label">
+                <strong>Marketing</strong>
+                <small>Used to deliver relevant ads and track campaigns.</small>
+            </div>
+            <label class="cookie-toggle">
+                <input type="checkbox" id="pref-marketing">
+                <span class="cookie-toggle-slider"></span>
+            </label>
+        </div>
+        <div style="text-align: right; margin-top: 10px;">
+            <button class="cookie-btn cookie-accept" onclick="savePreferences()">Save Preferences</button>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    var CONSENT_KEY = 'cookieConsent';
+    var PREFS_KEY = 'cookiePreferences';
+    var COOKIE_MAX_AGE = 365 * 24 * 60 * 60;
+    var banner = document.getElementById('cookie-consent-banner');
+
+    function setCookie(name, value, maxAge) {
+        document.cookie = name + '=' + encodeURIComponent(value) +
+            ';path=/;max-age=' + maxAge + ';SameSite=Lax;Secure';
+    }
+
+    function getCookie(name) {
+        var match = document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]*)'));
+        return match ? decodeURIComponent(match[1]) : null;
+    }
+
+    function showBanner() {
+        if (banner) banner.style.display = 'block';
+    }
+
+    function hideBanner() {
+        if (banner) banner.style.display = 'none';
+    }
+
+    function setConsent(value, prefs) {
+        setCookie(CONSENT_KEY, value, COOKIE_MAX_AGE);
+        localStorage.setItem(CONSENT_KEY, value);
+        if (prefs) {
+            var prefsStr = JSON.stringify(prefs);
+            setCookie(PREFS_KEY, prefsStr, COOKIE_MAX_AGE);
+            localStorage.setItem(PREFS_KEY, prefsStr);
+        }
+        hideBanner();
+    }
+
+    window.acceptCookies = function() {
+        setConsent('accepted', { necessary: true, analytics: true, marketing: true });
+    };
+
+    window.rejectCookies = function() {
+        setConsent('rejected', { necessary: true, analytics: false, marketing: false });
+    };
+
+    window.toggleCookiePrefs = function() {
+        var panel = document.getElementById('cookie-prefs-panel');
+        if (panel) {
+            panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+        }
+    };
+
+    window.savePreferences = function() {
+        var analytics = document.getElementById('pref-analytics').checked;
+        var marketing = document.getElementById('pref-marketing').checked;
+        setConsent(analytics ? 'accepted' : 'partial', { necessary: true, analytics: analytics, marketing: marketing });
+    };
+
+    var consent = getCookie(CONSENT_KEY) || localStorage.getItem(CONSENT_KEY);
+    if (!consent) {
+        setTimeout(showBanner, 1000);
+    }
+})();
+</script>
+-->
+
+<script>
+window.TRANSLATIONS = { es: {
+  'breadcrumb.current': 'Test de velocidad',
+  'hero.title': 'Mide la velocidad de tu internet',
+  'hero.subtitle': 'Obtén resultados precisos al instante con AIM Score',
+  'hero.noAds': 'Sin anuncios',
+  'hero.noTracking': 'Sin rastreo',
+  'hero.noSignup': 'Sin registro',
+  'hero.free': '100% gratis',
+  'hero.ctaButton': 'Iniciar test de velocidad',
+  'hero.ctaHint': 'Abre Bolt Bunny y comienza a medir al instante',
+  'hero.poweredBy': 'Desarrollado por Bolt Bunny - El test de velocidad más rápido y preciso',
+  'metrics.download.title': 'Velocidad de descarga',
+  'metrics.download.desc': 'Mide qué tan rápido recibes datos de internet',
+  'metrics.upload.title': 'Velocidad de subida',
+  'metrics.upload.desc': 'Mide qué tan rápido puedes enviar datos a internet',
+  'metrics.ping.title': 'Ping y latencia',
+  'metrics.ping.desc': 'Verifica el tiempo de respuesta de tu conexión en milisegundos',
+  'metrics.aim.title': 'AIM Score',
+  'metrics.aim.desc': 'Obtén una métrica única de calidad para toda tu conexión',
+  'why.title': '¿Por qué medir tu velocidad de internet?',
+  'why.subtitle': 'Entender tu conexión te ayuda a sacar el máximo provecho de tu internet',
+  'why.verify.title': 'Verifica el rendimiento de tu ISP',
+  'why.verify.desc': 'Asegúrate de que recibes la velocidad que tu proveedor prometió. Los ISP anuncian velocidades "de hasta", pero las pruebas regulares te muestran lo que realmente obtienes.',
+  'why.troubleshoot.title': 'Diagnostica problemas',
+  'why.troubleshoot.desc': '¿Streaming lento? ¿Lag en los juegos? Mide tu velocidad para identificar problemas de conexión antes de que afecten tu trabajo o entretenimiento.',
+  'why.optimize.title': 'Optimiza el rendimiento',
+  'why.optimize.desc': 'Encuentra los mejores horarios para descargar archivos grandes o ver contenido en 4K. Comprende cómo la congestión de red afecta tus velocidades durante el día.',
+  'numbers.title': 'Qué significan los números',
+  'numbers.download.title': 'Velocidad de descarga',
+  'numbers.download.desc': 'Medida en Mbps (megabits por segundo), indica qué tan rápido recibes datos de internet.',
+  'numbers.download.li1': '5-10 Mbps: Navegación básica y correo',
+  'numbers.download.li2': '25+ Mbps: Streaming de video en HD',
+  'numbers.download.li3': '100+ Mbps: Streaming en 4K y gaming',
+  'numbers.upload.title': 'Velocidad de subida',
+  'numbers.upload.desc': 'Qué tan rápido puedes enviar datos a internet. Esencial para videollamadas, copias de seguridad en la nube y creación de contenido.',
+  'numbers.upload.li1': '1-3 Mbps: Videoconferencias',
+  'numbers.upload.li2': '10+ Mbps: Streaming en HD y subidas grandes',
+  'numbers.upload.li3': '35+ Mbps: Subida de streaming en 4K',
+  'numbers.pingJitter.title': 'Ping y jitter',
+  'numbers.pingJitter.desc': 'El ping es el tiempo de respuesta de tu conexión. El jitter mide la estabilidad. Ambos son cruciales para gaming y aplicaciones en tiempo real.',
+  'numbers.pingJitter.li1': '&lt;20ms ping: Excelente para gaming',
+  'numbers.pingJitter.li2': '&lt;50ms ping: Bueno para la mayoría de usos',
+  'numbers.pingJitter.li3': '&lt;10ms jitter: Conexión estable',
+  'table.title': '¿Cuál es una buena velocidad de internet?',
+  'table.subtitle': 'Usa esta tabla para ver si tus resultados coinciden con lo que necesitas',
+  'table.thSpeed': 'Velocidad',
+  'table.thRating': 'Calificación',
+  'table.thGoodFor': 'Ideal para',
+  'table.basic': 'Básica',
+  'table.row1.use': 'Correo, navegación web, redes sociales',
+  'table.good': 'Buena',
+  'table.row2.use': 'Streaming en HD, videollamadas, gaming ligero',
+  'table.good2': 'Buena',
+  'table.row3.use': 'Teletrabajo, Zoom, múltiples dispositivos',
+  'table.great': 'Muy buena',
+  'table.row4.use': 'Streaming en 4K, gaming en línea, descargas grandes',
+  'table.great2': 'Muy buena',
+  'table.row5.use': 'Múltiples streams en 4K, gaming competitivo, hogar inteligente',
+  'table.excellent': 'Excelente',
+  'table.row6.use': 'Uso intensivo del hogar, streaming en vivo, cloud gaming',
+  'table.excellent2': 'Excelente',
+  'table.row7.use': 'Todo &mdash; transferencias grandes, 8K, sin límites',
+  'table.excellent3': 'Excelente',
+  'table.row8.use': 'A prueba de futuro, nivel empresarial, 10+ dispositivos a máxima velocidad',
+  'faq.title': 'Preguntas frecuentes',
+  'faq.q1': '¿Es preciso este test de velocidad?',
+  'faq.a1': '¡Sí! Nuestro test utiliza métodos estándar de la industria y se conecta a servidores de alto rendimiento para medir tu velocidad real. Para mejores resultados, cierra otras aplicaciones y conéctate por Ethernet si es posible.',
+  'faq.q2': '¿Cuál es una buena velocidad de descarga?',
+  'faq.a2': 'Depende de tu uso. 25 Mbps es suficiente para streaming en HD y videollamadas. 100+ Mbps maneja streaming en 4K y gaming. Para hogares con varios usuarios, 200-300 Mbps da margen a todos. La mayoría encuentra que 100-200 Mbps es el punto ideal.',
+  'faq.q3': '¿Cuál es una buena velocidad de subida?',
+  'faq.a3': 'Para la mayoría, 5-10 Mbps de subida es suficiente para videollamadas y copias de seguridad. Si haces streaming en vivo en Twitch o YouTube, apunta a 10-25 Mbps. Creadores de contenido que suben archivos grandes necesitan 25+ Mbps. Quienes trabajan remoto con Zoom o Teams necesitan al menos 3-5 Mbps de subida.',
+  'faq.q4': '¿Por qué mi velocidad es menor a la contratada?',
+  'faq.a4': 'Los ISP anuncian velocidades "de hasta", no garantizadas. La intensidad de la señal WiFi, congestión de red, hora del día, distancia al router y dispositivos conectados afectan tu velocidad real. Para la prueba más precisa, usa una conexión Ethernet con cable y cierra otras aplicaciones.',
+  'faq.q5': '¿Por qué mi internet es tan lento por la noche?',
+  'faq.a5': 'Las velocidades suelen bajar en horas pico (7-11 PM) porque más personas en tu zona están conectadas. Esto se llama congestión de red. Tu ISP comparte el ancho de banda con el vecindario, así que el uso intensivo de vecinos haciendo streaming, gaming y descargando puede ralentizar a todos. Si es constante, considera mejorar tu plan o cambiar a fibra óptica.',
+  'faq.q6': '¿Cuál es la diferencia entre velocidad de descarga y subida?',
+  'faq.a6': 'La velocidad de descarga es qué tan rápido recibes datos de internet &mdash; afecta streaming, navegación y descargas. La velocidad de subida es qué tan rápido envías datos &mdash; afecta videollamadas, subida de fotos, copias de seguridad y streaming en vivo. La mayoría de los planes ofrecen mayor descarga que subida.',
+  'faq.q7': '¿Qué significa Mbps?',
+  'faq.a7': 'Mbps significa megabits por segundo &mdash; mide cuántos datos pueden transferirse en un segundo. No lo confundas con MBps (megabytes por segundo), que es 8 veces mayor. Cuando tu ISP dice "100 Mbps", equivale a unos 12.5 megabytes por segundo de velocidad real de descarga. Un archivo de 1 GB tardaría unos 80 segundos a 100 Mbps.',
+  'faq.q8': '¿Qué es el AIM Score?',
+  'faq.a8': 'AIM Score es una métrica única de 0 a 100 que combina velocidad de descarga, subida, ping y jitter en un solo número fácil de entender. Te da una imagen completa de la calidad de tu conexión de un vistazo, sin tener que interpretar cuatro números diferentes.',
+  'faq.q9': '¿Cuál es un buen ping para gaming?',
+  'faq.a9': 'Para gaming competitivo, necesitas menos de 20ms de ping. Para gaming casual, menos de 50ms está bien. Por encima de 100ms, notarás lag y teletransportación. El jitter (estabilidad del ping) también importa &mdash; menos de 10ms de jitter significa una conexión estable. Usa cable Ethernet en lugar de WiFi para el mejor rendimiento.',
+  'faq.q10': '¿Cómo funcionan los tests de velocidad?',
+  'faq.a10': 'Los tests funcionan descargando y subiendo datos de prueba entre tu dispositivo y un servidor. Para la descarga, el test envía bloques de datos a tu navegador y mide qué tan rápido llegan. Para la subida, tu navegador envía datos de vuelta. El ping se mide enviando paquetes pequeños y cronometrando el viaje de ida y vuelta. Todo el proceso toma 15-30 segundos.',
+  'faq.q11': '¿Por qué diferentes tests dan resultados distintos?',
+  'faq.a11': 'Diferentes tests usan servidores en diferentes ubicaciones, lo que afecta los resultados. Tu distancia al servidor, la capacidad del servidor y hasta el método de prueba influyen. Para resultados más consistentes, mide varias veces a diferentes horas del día. Nuestro test usa descargas paralelas multi-conexión para la mayor precisión.',
+  'faq.q12': 'WiFi vs Ethernet: ¿cuál da un test más preciso?',
+  'faq.a12': 'Ethernet (cable) siempre da resultados más precisos porque el WiFi añade sobrecarga y se ve afectado por paredes, distancia, interferencia y otros dispositivos. Si tu test por WiFi muestra 100 Mbps pero tu plan es de 300 Mbps, prueba con cable Ethernet &mdash; probablemente verás la velocidad completa. Los routers WiFi 6 son más rápidos, pero no igualan una conexión directa por cable.',
+  'faq.q13': '¿Cómo saber si mi ISP está limitando mi internet?',
+  'faq.a13': 'Haz un test de velocidad normal, luego otro a través de una VPN. Si tus velocidades son significativamente más rápidas con VPN, tu ISP puede estar limitando ciertos tipos de tráfico. También compara velocidades a diferentes horas &mdash; caídas constantes en horas pico sugieren congestión, mientras que caídas solo en servicios específicos (como Netflix) sugieren throttling.',
+  'faq.q14': '¿Con qué frecuencia debo medir mi velocidad?',
+  'faq.a14': 'Mide regularmente si tienes problemas, estás considerando un cambio de plan o te mudas. Muchas personas miden semanalmente para seguir la calidad de su conexión. Medir a diferentes horas del día te ayuda a entender el rendimiento en horas pico vs. horas valle.',
+  'faq.q15': '¿Este test es realmente gratis?',
+  'faq.a15': '100% gratis para siempre. Sin anuncios, sin rastreo, sin necesidad de cuenta. Creemos que todos merecen conocer su velocidad real de internet sin complicaciones ni anuncios molestos.',
+  'guides.title': 'Guías de velocidad de internet',
+  'guides.subtitle': 'Guías detalladas para entender y mejorar tu conexión',
+  'guides.gaming': 'Mejor velocidad de internet para gaming',
+  'guides.streaming': 'Velocidad para streaming (Netflix, 4K)',
+  'guides.slow': '¿Por qué mi internet es tan lento?',
+  'cta.title': '¿Listo para medir tu velocidad?',
+  'cta.desc': 'Obtén resultados precisos al instante. Sin registro.',
+  'cta.button': 'Mide tu velocidad ahora',
+  'footer.copyright': '&copy; 2026 Test de Velocidad Gratis &mdash; Desarrollado por <a href="https://boltbunny.app?ref=internet-speed-test">Bolt Bunny</a>',
+  'footer.speedTest': 'Test de velocidad',
+  'footer.proPlans': 'Planes Pro',
+  'footer.terms': 'Términos',
+  'footer.privacy': 'Privacidad'
+}};
+</script>
+<script src="i18n.js"></script>
+
+</body>
+</html>

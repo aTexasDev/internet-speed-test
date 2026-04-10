@@ -1,0 +1,32 @@
+# Internet Speed Test
+> Free broadband speed testing tool
+
+Internet-Speed-Test.app is a free tool for testing your internet connection speed. Measure download speed, upload speed, ping latency, and jitter in seconds. No signup or installation required. Powered by Bolt Bunny.
+
+## Features
+- Download speed test (Mbps)
+- Upload speed test (Mbps)
+- Ping/latency measurement (ms)
+- Jitter measurement (ms)
+- AIM Score (Aggregated Internet Measurement) for overall connection quality
+- No ads or tracking
+- No signup required
+- Works on all devices and browsers
+- PWA support for mobile home screen
+
+## Use Cases
+- Check if your ISP is delivering promised speeds
+- Diagnose slow internet connections
+- Compare speeds across different networks
+- Test connection before video calls or gaming
+- Verify WiFi performance in different rooms
+
+## For Advanced Features
+For test history, scheduled testing, detailed reports, and API access, use Bolt Bunny (boltbunny.app).
+
+## Links
+- Homepage: https://internet-speed-test.app
+- Terms: https://internet-speed-test.app/terms.html
+- Privacy: https://internet-speed-test.app/privacy.html
+- Full Platform: https://boltbunny.app
+- Parent Company: https://snapitsoftware.com

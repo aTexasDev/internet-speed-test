@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://internet-speed-test.app/sitemap.xml

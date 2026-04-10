@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Free Internet Speed Test | No Data Collection</title>
+    <meta name="description" content="Internet Speed Test privacy policy. We do not collect personal data, set cookies, or use tracking scripts. Run free speed tests with complete privacy.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://internet-speed-test.app/privacy.html">
+    <style>
+        :root {
+            --primary: #ff006e;
+            --primary-dark: #d4005c;
+            --bg-light: #fff0f6;
+            --bg-card: #ffffff;
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+            --border-color: rgba(255, 0, 110, 0.3);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg-light);
+            color: var(--text-primary);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+        .navbar {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 1.4rem;
+        }
+        .logo-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 12px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .nav-links a:hover { color: var(--primary); }
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem 3rem;
+            background: var(--bg-light);
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .last-updated {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.5rem 1rem;
+            background: rgba(255, 0, 110, 0.1);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--primary);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 2rem 4rem;
+        }
+        .content-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 3rem;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+        .section { margin-bottom: 2.5rem; }
+        .section:last-child { margin-bottom: 0; }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .section-number {
+            width: 36px;
+            height: 36px;
+            background: var(--primary);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: white;
+            flex-shrink: 0;
+        }
+        .section h2 { font-size: 1.5rem; font-weight: 700; }
+        .section h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin: 1.5rem 0 0.75rem;
+        }
+        .section p { color: var(--text-secondary); margin-bottom: 1rem; }
+        .section ul { color: var(--text-secondary); margin-left: 1.5rem; margin-bottom: 1rem; }
+        .section li { margin-bottom: 0.5rem; }
+        .section li strong { color: var(--text-primary); }
+        .highlight-box {
+            background: rgba(255, 0, 110, 0.1);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        .highlight-box h4 { color: var(--primary); margin-bottom: 0.5rem; font-weight: 600; }
+        .contact-box {
+            background: rgba(255, 0, 110, 0.05);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .contact-box h3 { color: var(--text-primary); margin-bottom: 1rem; }
+        .contact-box a { color: var(--primary); text-decoration: none; font-weight: 600; }
+        .contact-box a:hover { text-decoration: underline; }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.2s;
+            margin-top: 1rem;
+        }
+        .btn:hover { background: var(--primary-dark); transform: translateY(-2px); text-decoration: none; }
+        a { color: var(--primary); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-color);
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        .footer-content { max-width: 1200px; margin: 0 auto; }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .footer-links a { color: var(--text-secondary); text-decoration: none; font-weight: 500; transition: color 0.2s; }
+        .footer-links a:hover { color: var(--primary); }
+        .footer-bottom { color: var(--text-secondary); font-size: 0.9rem; }
+        .footer-bottom a { color: var(--primary); text-decoration: none; }
+        @media (max-width: 768px) {
+            .navbar { padding: 1rem; }
+            .nav-links { display: none; }
+            .hero h1 { font-size: 2rem; }
+            .content { padding: 2rem 1rem; }
+            .content-card { padding: 1.5rem; }
+            .section h2 { font-size: 1.25rem; }
+            .logo-icon { width: 40px; height: 40px; border-radius: 8px; }
+        }
+    </style>
+    <script>window.SNAPIT_TRACKING_ID='SA_56f8c0f3b16e';</script>
+    <script src="https://snapitanalytics.com/analytics.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <img src="/logo-icon.png" class="logo-icon" alt="Internet Speed Test">
+                Internet Speed Test
+            </a>
+            <div class="nav-links">
+                <a href="/">Speed Test</a>
+                <a href="https://boltbunny.app?ref=internet-speed-test">Bolt Bunny</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Privacy Policy</h1>
+        <p>Internet Speed Test is a free tool that respects your privacy. We do not collect personal information when you test your download speed, upload speed, or ping.</p>
+        <span class="last-updated">Last Updated: March 23, 2026</span>
+    </section>
+
+    <div class="content">
+        <div class="content-card">
+            <section class="section">
+                <div class="section-header">
+                    <div class="section-number">1</div>
+                    <h2>What This Site Does</h2>
+                </div>
+                <p>Internet Speed Test is a free, static website that helps you check your internet connection speed. When you click "Start Test," all speed measurements &mdash; including download speed, upload speed, ping, and jitter &mdash; run entirely within your web browser. No test results are sent to or stored on our servers.</p>
+            </section>
+
+            <section class="section">
+                <div class="section-header">
+                    <div class="section-number">2</div>
+                    <h2>Information We Do Not Collect</h2>
+                </div>
+                <p>Unlike many internet speed test websites, we keep things simple:</p>
+                <ul>
+                    <li><strong>No account registration</strong> &mdash; there is no sign-up, login, or profile</li>
+                    <li><strong>No cookies</strong> &mdash; we do not set first-party or third-party cookies</li>
+                    <li><strong>No analytics tracking</strong> &mdash; no Google Analytics, no pixel tags, no fingerprinting</li>
+                    <li><strong>No advertising</strong> &mdash; no ad networks, no retargeting scripts</li>
+                    <li><strong>No speed test history</strong> &mdash; your results stay in your browser and are not saved</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <h4>Zero Personal Data Collection</h4>
+                    <p>We built Internet Speed Test as a privacy-first alternative to ad-heavy speed test sites. Your connection data never leaves your device.</p>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section-header">
+                    <div class="section-number">3</div>
+                    <h2>Web Hosting &amp; Server Logs</h2>
+                </div>
+                <p>This website is delivered through Amazon CloudFront (a content delivery network). When your browser requests a page, AWS infrastructure may automatically log:</p>
+                <ul>
+                    <li><strong>IP address</strong> &mdash; needed to route the webpage to your browser</li>
+                    <li><strong>Timestamp</strong> &mdash; when the request was made</li>
+                    <li><strong>User-agent string</strong> &mdash; your browser and operating system</li>
+                    <li><strong>Requested URL</strong> &mdash; which page you visited</li>
+                </ul>
+                <p>These are standard web server logs managed by AWS. We do not mine, analyze, or cross-reference this data. For details, see the <a href="https://aws.amazon.com/privacy/" target="_blank" rel="noopener">AWS Privacy Notice</a>.</p>
+            </section>
+
+            <section class="section">
+                <div class="section-header">
+                    <div class="section-number">4</div>
+                    <h2>Links to Bolt Bunny</h2>
+                </div>
+                <p>Internet Speed Test is part of the <a href="https://boltbunny.app?ref=internet-speed-test">Bolt Bunny</a> family of speed testing tools. Our site contains links to Bolt Bunny, which offers advanced features like test history, AIM Score analysis, and Pro plans.</p>
+                <p>When you follow a link to boltbunny.app, you leave this site and become subject to <a href="https://boltbunny.app/privacy.html" target="_blank" rel="noopener">Bolt Bunny's Privacy Policy</a>. Bolt Bunny is a separate application with its own data practices, including account registration and payment processing.</p>
+            </section>
+
+            <section class="section">
+                <div class="section-header">
+                    <div class="section-number">5</div>
+                    <h2>No Tracking Promise</h2>
+                </div>
+                <p>We believe running a quick internet speed test should not cost you your privacy:</p>
+                <ul>
+                    <li>No third-party advertising trackers or beacons</li>
+                    <li>No data sold, rented, or shared with ISPs or data brokers</li>
+                    <li>No browser fingerprinting or device identification</li>
+                    <li>No email collection or marketing lists</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <div class="section-header">
+                    <div class="section-number">6</div>
+                    <h2>Children's Privacy</h2>
+                </div>
+                <p>Because Internet Speed Test does not collect any personal information, there are no special privacy concerns for users of any age. The site is safe for all visitors, including children under 13.</p>
+            </section>
+
+            <section class="section">
+                <div class="section-header">
+                    <div class="section-number">7</div>
+                    <h2>Updates to This Policy</h2>
+                </div>
+                <p>If we change how this site works in a way that affects your privacy, we will update this policy and revise the "Last Updated" date above.</p>
+            </section>
+
+            <section class="section">
+                <div class="section-header">
+                    <div class="section-number">8</div>
+                    <h2>Contact Us</h2>
+                </div>
+                <p>Questions about this privacy policy or how Internet Speed Test handles your data? Reach out anytime:</p>
+
+                <div class="contact-box">
+                    <h3>SnapIT Software</h3>
+                    <p><strong>Owner:</strong> Terrell Flautt</p>
+                    <p><strong>Location:</strong> SnapIT Software LLC, Austin, TX</p>
+                    <p><strong>Email:</strong> <a href="mailto:privacy@snapitsoftware.com">privacy@snapitsoftware.com</a></p>
+                    <a href="/" class="btn">Run a Free Speed Test</a>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="/">Speed Test</a>
+                <a href="/privacy.html">Privacy Policy</a>
+                <a href="/terms.html">Terms of Service</a>
+                <a href="https://boltbunny.app?ref=internet-speed-test">Bolt Bunny</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 <a href="https://snapitsoftware.com">SnapIT Software</a>. All rights reserved.</p>
+                <p>Free Internet Speed Test &mdash; Powered by <a href="https://boltbunny.app?ref=internet-speed-test">Bolt Bunny</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
